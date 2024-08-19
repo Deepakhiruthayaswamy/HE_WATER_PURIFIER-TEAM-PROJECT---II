@@ -1,0 +1,57 @@
+.navbar {
+  background: #001442;
+  color: #fff;
+}
+a {
+  color: #fff;
+}
+
+.main-icon {
+  color: #379eff !important;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 130px;
+  font-family: Nunito Fonts;
+}
+
+.navbar-nav .nav-item {
+  text-align: center;
+  margin-right: 45px;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+.navbar-toggler-icon {
+  background-color: #fff !important;
+}
+.icon {
+  margin-left: 90px;
+  margin-right: 50px;
+  font-size: 35px;
+  font-family: Dosis;
+  font-weight: bold;
+}
+
+.icon i {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.locate {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 25px;
+  font-family: Nunito Fonts;
+  display: flex;
+}
+.locate i {
+  font-size: 20px;
+  color: #379eff !important;
+}
+
+.phone-icon {
+  margin-left: 50px;
+}

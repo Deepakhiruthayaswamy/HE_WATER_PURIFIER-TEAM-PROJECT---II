@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+a,
+h6 {
+  font-family: NunitoFonts;
+}
+
+/*** Footer Start ***/
+.text-white {
+  font-family: Dosis;
+}
+.footer {
+  background: #001442;
+}
+.main-icon {
+  color: #379eff;
+}
+
+.Subscribe-btn {
+  background-color: #19409a;
+  border: none;
+  color: #fff;
+}
+.footer-description {
+  color: #6c757d;
+}
+
+.footer .footer-item a {
+  line-height: 35px;
+  color: #6c757d;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.fab {
+  color: white;
+}
+
+.footer-item h6 {
+  color: #6c757d !important;
+}
+
+.footer .footer-item p {
+  line-height: 35px;
+}
+
+.footer .footer-item a:hover {
+  letter-spacing: 1px;
+  color: #0d6efd;
+}
+
+.footer .footer-item .footer-btn a,
+.footer .footer-item .footer-btn a i {
+  transition: 0.5s;
+}
+
+/*** Footer End ***/
+
+/*** copyright Start ***/
+.copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: #001442;
+}
+.text-white {
+  text-decoration: none;
+}
+.designed {
+  color: #fff;
+}
+
+/*** copyright end ***/
