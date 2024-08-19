@@ -30,7 +30,13 @@
     <div class="Customsectiontwo">
 
         <div class="Customproductdetails">
-            <div class="CustomproductImage">
+            <div id="imagezoom" class="CustomproductImage"
+            style="
+            --url: url('./productImages/1b.jpg');
+            --zoom-x: 0%; 
+            --zoom-y: 0%;
+            --display:none
+            ">
                 <img id="Customaddimg" src="./productImages/1b.jpg" alt="">
             </div>
             <div class="CustomproductdescSection">
@@ -86,6 +92,23 @@
 
     </div>
 </body>
+<script>
+let imagezoom =document.getElementById('imagezoom');
+imagezoom.addEventListener('mousemove',(event)=>{
+    imagezoom.style.setProperty('--display','block');
+        let pointer={
+            x:(event.offsetX*100)/imagezoom.offsetWidth,
+            y:(event.offsetY*100)/imagezoom.offsetHeight,
+        }
+        imagezoom.style.setProperty('--zoom-x',pointer.x+'%');
+        imagezoom.style.setProperty('--zoom-y',pointer.y+'%');
+            
+})
+imagezoom.addEventListener('mouseout',()=>{
+    imagezoom.style.setProperty('--display','none');
+})
+
+</script> 
 <script src="singleProduct.js"></script>
 
 </html>

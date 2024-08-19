@@ -26,6 +26,7 @@ document.getElementById('Customaddreviewername').innerText=reviewerName;
 document.getElementById('Customaddreview').innerText=vreview;
 document.getElementById('Customaddratingstar').innerHTML=vratings;
 document.getElementById('Customaddtotalratings').innerText=vnumber;
+document.getElementById('imagezoom').style.setProperty('--url',`url('${vimage}')`)
 
 const alertmessage = ()=>{
     alert("Item purchased");

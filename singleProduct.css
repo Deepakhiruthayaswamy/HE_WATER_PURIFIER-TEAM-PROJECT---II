@@ -17,6 +17,22 @@
     width: 42rem;
     height: 42rem;
 }
+.CustomproductImage{
+    position: relative;
+}
+.CustomproductImage::after{
+    display: var(--display);
+    content: "";
+    width: 100%;
+    height: 100%; 
+    background-color: #dfdfdf;
+    background-image: var(--url);
+    background-size: 200%;
+    background-position: var(--zoom-x) var(--zoom-y);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
 .CustomInfo{
     width: 70%;
@@ -87,7 +103,9 @@
        .CustomproductImage img{
         width: 30rem;
         height: 30rem;
+    
        }
+    
        .CustomInfo{
         width: auto;
        }
