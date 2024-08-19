@@ -1,9 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
+h1,h2,h3,h4,h5,h6{
+    font-family: "dosis", sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
+}
+p{
+    font-family: "Nunito";
+
 }
 
 h2 {
@@ -428,13 +438,19 @@ h2 {
 
 }
 .client-top {
-    text-align: center;
-    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
     color: #333;
+    gap: 15px;
     margin-bottom: 80px;
     text-transform: uppercase;
 }
-.client-color{
+.client-top h2:first-child{
+    font-size: 3.5rem;
+    color: black;
+}
+.client-top h2:last-child{
+    font-size: 3.5rem;
     color: #007BFF;
 }
 
