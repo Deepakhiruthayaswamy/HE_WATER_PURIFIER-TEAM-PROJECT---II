@@ -1,0 +1,570 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #007bff;
+}
+
+/* header section */
+.text-up{
+    margin-top: 10%;
+}
+.header-section {
+    background-color: rgb(211, 228, 234);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Adjust the content to fit the space */
+.header-title1 {
+    color: black;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+.header-title {
+    color: #007bff;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.blue{
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+/* Scale the button size for better visibility */
+.btn {
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    width: 175px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+.btn1 {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    width: 175px;
+    margin-left: 3%;
+}
+.btn1:hover{
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Ensure the image fits the available space */
+.img-fluid {
+    max-width: 50%;
+    height: 50%;
+    max-height: 50%;
+    margin-left: 30%;
+
+}
+
+/* Center content in the left column */
+.col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Optional: Ensure the image is positioned relative to allow transform */
+.float-image {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+.img-fluid {
+    display: inline-block;
+    transition: transform 0.1s ease-in-out;
+}
+
+
+
+
+/*water composition section*/
+/* Section Styles */
+#water-composition {
+    padding: 20px;
+    background-color:  rgb(211, 228, 234);
+}
+#water-composition .center img {
+    display: inline-block;
+    transition: transform 0.1s ease-in-out;
+}
+
+
+/* Title Styles */
+.water-title {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 5%;
+    color: #333;
+}
+.water-title h2:first-child {
+    color: black;
+    font-size: 3.5rem;
+}
+.water-title h2:last-child {
+    color: #007BFF;
+    font-size: 3.5rem;
+}
+
+/* Composition Container */
+.composition {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Left and Right Column Styles */
+.left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+.right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Item Styles */
+.item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.item p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #555;
+}
+.item{
+    margin-bottom: 50%;
+}
+.blue1{
+    color: #007bff;
+    font-size: 1.5rem;
+
+}
+.left-content ,p{
+    text-align: right;
+}
+.right-content p{
+    text-align: left;
+}
+
+
+/* Image Styles */
+.center {
+    width: 30%;
+    text-align: center;
+}
+
+.center img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -30%;
+}
+
+
+/* Choose Your Water Section */
+#choose-water {
+    padding: 50px 0;
+}
+
+.choose-title  {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 5%;
+    color: #333;
+}
+.choose-title h2:first-child{
+    color: black;
+    font-size: 3.5rem;
+}
+.choose-title h2:last-child{
+    color: #007BFF;
+    font-size: 3.5rem;
+}
+.water-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-wrap: nowrap;
+}
+
+.water-options .card {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color:  white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.water-options .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styling to ensure all images are fully shown and the same size */
+.water-options .card img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Set a max-height to ensure images are not too large */
+    object-fit: contain; /* Ensures the entire image is shown within the container */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.water-options .card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.water-options .card p {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.water-options .card button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.water-options .card button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Delivery Service Section */
+#choose-water{
+    background-color:  rgb(211, 228, 234);
+}
+.delivery-service {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-color:  rgb(211, 228, 234)
+}
+
+.delivery-service img {
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+}
+
+.delivery-service-content {
+    flex: 1; /* Ensures the content takes up the remaining right side */
+    padding-left: 800px; /* Adds space between the image and content */
+}
+.col-md-6{
+    display: flex;
+    color: #333;
+}
+.col-md-6 h2:first-child {
+    margin-top: -5%;
+    text-align: left;
+    font-size: 3.5rem;
+    color: black;
+}
+.col-md-6 h2:last-child {
+    margin-top: -12%;
+    margin-left: 31%;
+    margin-bottom: 10%;
+    font-size: 3.5rem;
+    color: #007BFF;
+}    
+.delivery-service p {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.delivery-service ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.delivery-service li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.delivery-service .btn-primary {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+
+
+/* Our Story Section */
+#our-story {
+    padding: 50px 0;
+    background-color:  rgb(211, 228, 234);
+}
+.story-title{
+    display: flex;
+    color: #333;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.story-title h2:first-child{
+    font-size: 3.5rem;
+    color: black;
+}
+.story-title h2:last-child{
+    font-size: 3.5rem;
+    color: #007BFF;
+}
+
+
+#our-story p {
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+.story-icons {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    
+}
+.story1{
+    border-radius: 10%;
+    object-fit: cover;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgb(204, 233, 243);
+}
+.story2{
+    border-radius: 10%;
+    object-fit: cover;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgb(204, 233, 243);
+}
+.story3{
+    border-radius: 10%;
+    object-fit: cover;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgb(204, 233, 243);
+}
+.story4{
+    border-radius: 10%;
+    object-fit: cover;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgb(204, 233, 243);
+}
+
+.icon img {
+    width: 150px;
+    height: auto;
+}
+.icon:hover{
+    transform: translateY(-10px);
+
+}
+
+/* What our client says testimonial section */
+/* Styling for the client testimonial section */
+#our-client{
+    padding: 50px 0;
+    background-color:  rgb(211, 228, 234);
+
+}
+.client-top {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #333;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+.client-color{
+    color: #007BFF;
+}
+
+/* Styling for the carousel */
+.carousel {
+    position: relative;
+    max-width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Additional responsiveness */
+@media (max-width: 768px) {
+    .client-top {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+/* Recent Posts Section */
+#our-blog {
+    padding: 50px 0;
+    background-color:  rgb(211, 228, 234);
+}
+
+.our-title {
+    display: flex;
+    justify-content: center;
+    color: #007bff;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.our-title h2:first-child{
+    color: black;
+    font-size: 3.5rem;
+}
+.our-title h2:last-child{
+    color: #007BFF;
+    font-size: 3.5rem;
+}
+
+.blog-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap; /* Prevents wrapping, keeps cards in a single line */
+    margin-left: 12%;  /* Add margins to center the content */
+    margin-right: 12%;
+}
+
+.blog-cards .card1,
+.blog-cards .card2,
+.blog-cards .card3 {
+    text-align: center;
+    padding: 0px;
+    flex: 1; /* Ensures all cards take up equal space */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%; /* Ensures cards are fully responsive */
+}
+
+.blog-cards .card1:hover,
+.blog-cards .card2:hover,
+.blog-cards .card3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.blog-cards .card1 img,
+.blog-cards .card2 img,
+.blog-cards .card3 img {
+    width: 100%;
+    height: 250px; /* Ensures all images are of the same height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.blog-cards .card1 h3,
+.blog-cards .card2 h3,
+.blog-cards .card3 h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.blog-cards .card1 p,
+.blog-cards .card2 p,
+.blog-cards .card3 p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.blog-cards .card1 button,
+.blog-cards .card2 button,
+.blog-cards .card3 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blog-cards .card1 button:hover,
+.blog-cards .card2 button:hover,
+.blog-cards .card3 button:hover {
+    background-color: #0056b3;
+}
+
