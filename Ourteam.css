@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.team-section {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #007bff;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.team-member {
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.team-member h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #777;
+}
+
+.social-icons a {
+    color: #777;
+    margin: 0 5px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
