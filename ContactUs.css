@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap");
-
-*,
 *:before,
 *:after {
   -moz-box-sizing: border-box;
@@ -9,6 +6,55 @@
 }
 body {
   margin: 0;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.office-details {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-top: 20px;
+}
+
+.heading-office,
+.heading-office-2 {
+  flex: 1;
+  padding: 10px;
+}
+
+.heading-office {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 25px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.heading-office-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+.map {
+  width: 100%;
+  height: 500px;
 }
 
 .input-field-size {
@@ -82,7 +128,7 @@ body {
   margin-top: 10px;
   margin-right: auto;
   margin-bottom: 50px;
-  margin-left: 0px;
+  justify-content: center;
 }
 
 .contact_us_2 .container-block.form-container {
