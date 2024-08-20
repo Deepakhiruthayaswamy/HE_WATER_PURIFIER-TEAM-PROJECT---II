@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+html,body{
+
+    overflow-x: hidden;
+    }
+   
+   html,body {
+      scroll-behavior: smooth;
+      
+    }
+
+
+
+/* background view [page] start */
+
+
+.back{
+    background-color: #eef9ff;
+    height: 40vh;
+
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 140px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    
+}
+
+.text h5{
+    text-align: center;
+    color: #081F46;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+#header-wave {
+    background-color: #eef9ff;
+    
+}
+
+/* gallery */
+.container{
+    width:65%;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content:center;
+}
+.img-c{
+   
+    width: 46%;
+    border: none;
+    padding: 3% !important;
+    box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .11), 0 12px 90px 0 rgba(103, 151, 255, .11);
+    margin: 2% !important;
+    border-radius: 8px;
+    background-color: #fff;
+    position: relative;
+}
+.img-c h5{
+    margin-top: 20px;
+}
+
+
+.img-c img{
+
+    width: 100%;
+   
+}
