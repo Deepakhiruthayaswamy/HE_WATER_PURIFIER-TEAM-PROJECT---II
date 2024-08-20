@@ -11,14 +11,18 @@
 
 }
 
+.CustomproductImage{
+    position: relative;
+    
+    border: 5rem solid white;
+
+}
 
 .CustomproductImage img{
 
     width: 42rem;
     height: 42rem;
-}
-.CustomproductImage{
-    position: relative;
+
 }
 .CustomproductImage::after{
     display: var(--display);
@@ -32,6 +36,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
+
 }
 
 .CustomInfo{

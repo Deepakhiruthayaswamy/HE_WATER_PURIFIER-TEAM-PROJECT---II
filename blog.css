@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+/* Hero Section */
+.hero {
+    background-color: #e9f6ff; /* Light blue background */
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: url('path/to/wave.png') no-repeat center bottom;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.breadcrumb {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.breadcrumb span {
+    color: #777;
+}
+/* main */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width:900px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+   
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.content {
+    padding: 15px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.category {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: "Dosis, arial, sans-serif";
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-family: "Nunito, arial, sans-serif";
+}
+
+.footer {
+    font-size: 12px;
+    color: #aaa;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    text-decoration: none;
+    font-size: 14px;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+/* read more */
+/* .button-container1 {
+    text-align: center;
+    margin-left: 20%0;
+}
+
+.read-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:none ;
+    color:#3498db;
+    border-color: #3498db;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-align: center ;
+}
+
+.read-more-button:hover {
+    background-color: #2980b9;
+    color: #e9f6ff;
+} */
