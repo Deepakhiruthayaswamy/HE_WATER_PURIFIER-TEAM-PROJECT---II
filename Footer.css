@@ -72,3 +72,18 @@ h6 {
 }
 
 /*** copyright end ***/
+
+@media screen and (max-width: 320px) {
+  .form-control {
+    width: 50%;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .Subscribe-btn {
+    width: 33%;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,111 @@
+body {
+    font-family: "Nunito";
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+/* Hero Section */
+.hero {
+    background-color: #e9f6ff; /* Light blue background */
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: url('path/to/wave.png') no-repeat center bottom;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.breadcrumb {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.breadcrumb span {
+    color: #777;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Display 2 cards per row */
+    gap: 20px;
+    padding: 50px 30px; /* Add padding on left and right */
+    max-width: 900px; /* Set a max-width to create space on left and right */
+    margin: 0 auto; /* Center the grid */
+}
+
+.testimonial {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.job-title {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.quote {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.quote-icon {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .testimonials {
+        grid-template-columns: 1fr; /* Display 1 card per row on smaller screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .testimonial {
+        margin-bottom: 20px;
+    }
+}
