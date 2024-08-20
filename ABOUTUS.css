@@ -27,7 +27,7 @@ html,body{
 
 .back{
     background-color: #eef9ff;
-    height: 60vh;
+    height: 40vh;
 
 }
 .overlay{
@@ -218,7 +218,7 @@ padding-top: 140px;
     transform: translateY(50px);
     filter: blur(20px);
     opacity: 0;
-    animation: showContent .5s 1s linear 1 forwards;
+    animation: showContent .4s 1s linear 1 forwards;
 }
 @keyframes showContent{
     to{
@@ -289,7 +289,7 @@ padding-top: 140px;
     z-index: 1000;
     width: 0%;
     height: 3px;
-    background-color: #f1683a;
+    background-color: #37a2ff;
     left: 0;
     top: 0;
 }
