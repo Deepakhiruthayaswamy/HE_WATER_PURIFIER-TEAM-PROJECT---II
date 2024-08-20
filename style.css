@@ -1,0 +1,5180 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+html,body{
+
+    overflow-x: hidden;
+    }
+   
+   html,body {
+      scroll-behavior: smooth;
+      
+    }
+
+
+
+/* background view [page] start */
+
+.back{
+    background-color: #eef9ff;
+    height: 60vh;
+
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 140px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    
+}
+
+.text h5{
+    text-align: center;
+    color: #081F46;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+#header-wave {
+    background-color: #eef9ff;
+}
+
+
+
+
+/* background view [page] End */
+/* about our company slide */
+
+
+.about_our_company{
+   
+    padding: 4.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 120px;
+  
+    
+    
+ 
+}
+.about_our_company .about {
+    width: 60%;
+    padding-right:5px;
+}
+
+.about_our_company .about h2{
+font-size: 40px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 49px;
+    letter-spacing: 1px;
+    font-family: "Dosis", arial, sans-serif;
+    
+    }
+.about_our_company .about p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+    width:65%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.about_our_company .people img{ 
+    width: 90%;
+}
+.fa img{
+    background-color:#eef9ff;
+    width: 1654px;
+
+}
+/* about company company slide end */
+/* our story start */
+.ourstory{
+    text-align:center;
+    width: 50%;
+  transform: translate(50%);
+  margin-top: 90px;
+  
+  
+}
+.ourstory .underline img {
+    width: 20%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 27px;
+
+}
+
+
+.totalpng{
+    display: flex;
+    justify-content: center;
+align-items: center;
+padding: 1rem;
+gap: 50px;
+text-align: center;
+}
+
+
+
+
+.png-container{
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+    display: flex;
+   padding: 4rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 10vh;}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 16px;
+    margin-top: 2rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+/* water heading and inside features start */
+
+.water-heading{
+text-align: center;
+margin:95px
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 48px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:32px;
+line-height: 50px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 40%;    
+    margin-left: 120px;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 40%; 
+    margin-right: 130px;
+
+}
+
+
+.composition{
+    padding: 2rem;
+   
+
+}
+.composition h2{
+ font-size: 18px;
+ font-weight: bolder;
+
+
+}
+
+.composition-img img{
+
+    width: 100%;
+    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 190px;
+justify-content: center;
+align-items: center;
+    
+    
+}
+.video-text{
+    width: 40%;
+    padding: 1rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 38px;
+    font-weight: bolder;
+    line-height: 90px;
+}
+
+.video-text h3{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 40px;
+
+}
+.video-text p{
+    font-size: 18px;
+    font-family: "Nunito",arial,sans-serif;
+    
+
+}
+
+
+.video-content .video-img img{
+   height: 35vh;
+   width: 120%; 
+   padding-right: 8rem; 
+
+   
+}
+.video-text a{
+    padding: 5px 25px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+   line-height: 50px;
+   background-color: #37a2ff;
+}
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 8rem;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #081f46;
+  }
+  i {
+    color:#081F46;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 50%;
+  transform: translate(50%);
+  margin-top: 90px;
+  text-transform: uppercase;
+  
+  
+}
+.our-partners .our-underline img {
+    width: 30%;   
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+   
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;    
+    padding-top: 1rem; 
+   
+ 
+}
+
+
+.container-images .partner-img img{
+   padding:  3rem 5rem 3rem 5rem;
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:100px;  
+    border-radius: 30px;
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.container2 .partner-img img{
+    padding:  3rem 10rem 3rem 7rem; 
+    margin-right:100px;
+    width: 95%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+   
+    border-radius: 30px;  
+
+}
+
+
+@media screen and (max-width:1441px) {
+    
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 100px;
+justify-content: center;
+align-items: center;
+transform: translate(0%);
+    
+    
+}
+.video-text{
+    width: 50%;
+    padding: 1rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 60px;
+}
+
+.video-text h3{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 40px;
+
+}
+.video-text p{
+    font-size: 17px;
+    font-family: "Nunito",arial,sans-serif;
+    
+
+}
+ #icon{
+    position: relative;
+    text-align: center;
+    margin-top: 9px;
+}
+
+
+.video-content .video-img img{
+ height: 45vh;
+   width: 120%; 
+   padding-right: 6rem; 
+
+   
+}
+.video-text a{
+    padding: 5px 25px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+   line-height: 50px;
+   background-color: #37a2ff;
+}
+    
+    
+}
+@media screen and (max-width:1280px) {
+
+    /* background view [page] start */
+
+    
+      
+
+.back{
+    background-color: #eef9ff;
+    height: 60vh;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 190px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    
+}
+
+.text h5{
+    text-align: center;
+    color: #081F46;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+/* background view [page] End */
+/* about our company slide */
+
+
+.about_our_company{
+    padding: 4rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 10px;
+  
+    
+    
+ 
+}
+.about_our_company .about {
+    width: 88%;
+    
+}
+
+.about_our_company .about h2{
+font-size: 28px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1px;
+    letter-spacing: 1px;
+    font-family: "Dosis", arial, sans-serif;
+    
+    }
+.about_our_company .about p{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.about_our_company .people img{ 
+    width: 100%;
+}
+/* about company company slide end */
+/* our story start */
+.ourstory{
+    text-align:center;
+    width: 60%;
+  transform: translate(30%);
+  margin-top: 80px;
+  
+  
+}
+.ourstory .underline img {
+    width: 20%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 26px;
+
+}
+
+
+.totalpng{
+    display: flex;
+    justify-content: center;
+align-items: center;
+padding: 1rem;
+gap: 40px;
+text-align: center;
+
+}
+.png-container{
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+    display: flex;
+   padding: 2rem 0rem 2rem 4rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 8vh;
+
+;}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 16px;
+    margin-top: 2rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+/* water heading and inside features start */
+
+.water-heading{
+text-align: center;
+margin:95px
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 46px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:29px;
+line-height: 50px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%;    
+    margin-left: 100px;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%; 
+    margin-right: 100px;
+
+}
+
+
+.composition{
+    padding: 1rem;
+   
+
+}
+.composition h2{
+ font-size: 15px;
+ font-weight: bolder;
+
+
+}
+
+.composition-img img{
+
+    width: 140%;
+    margin-left: -80px;
+    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 100px;
+justify-content: center;
+align-items: center;
+    
+    
+}
+.video-text{
+    width: 60%;
+    padding: 1rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 60px;
+}
+
+.video-text h3{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 40px;
+
+}
+.video-text p{
+    font-size: 17px;
+    font-family: "Nunito",arial,sans-serif;
+    
+
+}
+
+
+.video-content .video-img img{
+ height: 35vh;
+   width: 90%; 
+   padding-right: 0rem; 
+
+   
+}
+.video-text a{
+    padding: 5px 25px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+   line-height: 50px;
+   background-color: #37a2ff;
+}
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 8rem;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #f91818;
+  }
+  i {
+    color:#081F46;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 50%;
+  transform: translate(55%);
+  margin-top: 90px;
+  text-transform: uppercase;
+  
+  
+}
+.our-partners .our-underline img {
+    width: 30%;   
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;  
+  
+ 
+}
+
+
+.container-images .partner-img img{
+   padding:  3rem 4rem 3rem 4rem;
+    width: 80%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:180px;  
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .partner-img img{
+    padding:  3rem 9rem 3rem 9rem;   
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:150px; 
+
+}
+
+
+    
+}
+
+@media screen and (max-width:1024px) {
+
+    /* background view [page] start */
+
+    
+      
+
+.back{
+    background-color: #eef9ff;
+    height: 60vh;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 190px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    
+}
+
+.text h5{
+    text-align: center;
+    color: #081F46;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+/* background view [page] End */
+/* about our company slide */
+
+
+.about_our_company{
+    padding: 4rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 10px;
+  
+    
+    
+ 
+}
+.about_our_company .about {
+    width: 88%;
+    
+}
+
+.about_our_company .about h2{
+font-size: 28px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1px;
+    letter-spacing: 1px;
+    font-family: "Dosis", arial, sans-serif;
+    
+    }
+.about_our_company .about p{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.about_our_company .people img{ 
+    width: 100%;
+}
+/* about company company slide end */
+/* our story start */
+.ourstory{
+    text-align:center;
+    width: 60%;
+  transform: translate(30%);
+  margin-top: 80px;
+  
+  
+}
+.ourstory .underline img {
+    width: 20%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 26px;
+
+}
+
+
+.totalpng{
+    display: flex;
+    justify-content: center;
+align-items: center;
+padding: 1rem;
+gap: 40px;
+text-align: center;
+
+}
+.png-container{
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+    display: flex;
+   padding: 2rem 0rem 2rem 3rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 8vh;
+
+;}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 16px;
+    margin-top: 2rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+/* water heading and inside features start */
+
+.water-heading{
+text-align: center;
+margin:95px
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 46px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:29px;
+line-height: 50px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%;    
+    margin-left: 100px;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%; 
+    margin-right: 100px;
+
+}
+
+
+.composition{
+    padding: 1rem;
+   
+
+}
+.composition h2{
+ font-size: 15px;
+ font-weight: bolder;
+
+
+}
+
+.composition-img img{
+
+    width: 140%;
+    margin-left: -80px;
+    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 100px;
+justify-content: center;
+align-items: center;
+    
+    
+}
+.video-text{
+    width: 60%;
+    padding: 1rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 60px;
+}
+
+.video-text h3{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 40px;
+
+}
+.video-text p{
+    font-size: 17px;
+    font-family: "Nunito",arial,sans-serif;
+    
+
+}
+
+
+.video-content .video-img img{
+ height: 35vh;
+   width: 90%; 
+   padding-right: 0rem; 
+
+   
+}
+.video-text a{
+    padding: 5px 25px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+   line-height: 50px;
+   background-color: #37a2ff;
+}
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 8rem;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #f91818;
+  }
+  i {
+    color:#081F46;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 50%;
+  transform: translate(55%);
+  margin-top: 90px;
+  text-transform: uppercase;
+  
+  
+}
+.our-partners .our-underline img {
+    width: 30%;   
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;  
+  
+ 
+}
+
+
+.container-images .partner-img img{
+   padding:  3rem 4rem 3rem 4rem;
+    width: 80%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:180px;  
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .partner-img img{
+    padding:  3rem 9rem 3rem 9rem;   
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:150px; 
+
+}
+
+
+    
+}
+@media screen and (max-width:861px) {
+
+    /* background view [page] start */    
+      
+
+.back{
+    background-color: #eef9ff;
+    height: 56vh;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 120px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 58px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+    
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.text h5{
+    font-size: 16px;
+    text-align: center;
+    color: #081F46;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+/* background view [page] End */
+/* about our company slide */
+
+
+.about_our_company{
+    padding: 3rem;
+    margin-bottom: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: -10px;
+  
+    
+    
+ 
+}
+.about_our_company .about {
+    width: 70%;
+    
+}
+
+.about_our_company .about h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    font-family: "Dosis", arial, sans-serif;
+    
+    }
+.about_our_company .about p{
+    font-weight: normal;
+    font-size: 17px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+
+.about_our_company .people img{ 
+    width: 100%;
+}
+/* about company company slide end */
+/* our story start */
+.ourstory{
+    text-align:center;
+    width: 70%;
+  transform: translate(20%);
+  margin-top: 70px;
+  
+  
+}
+.ourstory .underline img {
+    width: 30%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 51px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 20px;
+
+}
+
+
+.totalpng{
+    display: flex;
+    justify-content: center;
+align-items: center;
+padding: 0,6rem;
+gap: 20px;
+text-align: center;
+
+
+}
+.png-container{
+   
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+   
+    display: flex;
+   padding: 3rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 6vh;}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 12px;
+    margin-top: 2rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+/* water heading and inside features start */
+
+.water-heading{
+text-align: center;
+margin:70px
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 42px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:28px;
+line-height: 48px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 100%;    
+    margin-left: 100px;
+  
+    padding-bottom: 0.3rem;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 100%; 
+    margin-right: 100px;
+
+}
+
+
+.composition{
+    padding: 0.9rem;
+    line-height: 15px;
+   
+
+}
+.composition h2{
+ font-size: 15px;
+ font-weight: bolder;
+}
+
+.composition p{
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.composition-img img{
+
+    width: 140%;
+    margin-left: -63px;
+    padding: 1rem;
+    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 80px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+    
+    
+}
+.video-text{
+    width: 100%;
+    padding: 2rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.video-text h3{
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 50px;
+
+}
+.video-text p{
+    font-size: 16px;
+    font-family: "Nunito",arial,sans-serif;
+    
+
+}
+
+
+.video-content .video-img img{
+ height: 30vh; 
+   width: 150%; 
+   padding-right: 0rem; 
+   transform: translate(-17%);
+
+   
+}
+.video-text a{
+    padding: 5px 20px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+   line-height: 20px;
+   background-color: #37a2ff;
+}
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 7rem;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 20vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.8em 0;
+    position: relative;
+    font-size: 12px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #081f46;
+  }
+  i {
+    color:#081F46;
+    font-size: 2em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 60%;
+  transform: translate(40%);
+  margin-top: 90px;
+  text-transform: uppercase;
+  
+  
+}
+.our-partners .our-underline img {
+    width: 30%;   
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;  
+  
+ 
+}
+
+
+.container-images .partner-img img{
+   padding: 2rem 4rem;
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:100px;  
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .partner-img img{
+    padding:  3rem 7rem;   
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:100px; 
+
+}
+
+
+    
+}
+
+@media screen and (max-width:821px) {
+
+    /* background view [page] start */    
+      
+
+.back{
+    background-color: #eef9ff;
+    height: 56vh;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 120px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 58px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+    
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.text h5{
+    font-size: 16px;
+    text-align: center;
+    color: #081F46;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+/* background view [page] End */
+/* about our company slide */
+
+
+.about_our_company{
+    padding: 3rem;
+    margin-bottom: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: -10px;
+  
+    
+    
+ 
+}
+.about_our_company .about {
+    width: 70%;
+    
+}
+
+.about_our_company .about h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    font-family: "Dosis", arial, sans-serif;
+    
+    }
+.about_our_company .about p{
+    font-weight: normal;
+    font-size: 17px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+
+.about_our_company .people img{ 
+    width: 100%;
+}
+/* about company company slide end */
+/* our story start */
+.ourstory{
+    text-align:center;
+    width: 70%;
+  transform: translate(20%);
+  margin-top: 70px;
+  
+  
+}
+.ourstory .underline img {
+    width: 30%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 51px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 20px;
+
+}
+
+
+.totalpng{
+    display: flex;
+    justify-content: center;
+align-items: center;
+padding: 0,6rem;
+gap: 20px;
+text-align: center;
+
+
+}
+.png-container{
+   
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+   
+    display: flex;
+   padding: 3rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 6vh;}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 12px;
+    margin-top: 2rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+/* water heading and inside features start */
+
+.water-heading{
+text-align: center;
+margin:70px
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 42px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:28px;
+line-height: 48px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 100%;    
+    margin-left: 100px;
+  
+    padding-bottom: 0.3rem;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 100%; 
+    margin-right: 100px;
+
+}
+
+
+.composition{
+    padding: 0.5rem;
+    line-height: 15px;
+   
+
+}
+.composition h2{
+ font-size: 15px;
+ font-weight: bolder;
+}
+
+.composition p{
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.composition-img img{
+
+    width: 140%;
+    margin-left: -63px;
+    padding: 1rem;
+    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 80px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+    
+    
+}
+.video-text{
+    width: 100%;
+    padding: 2rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.video-text h3{
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 50px;
+
+}
+.video-text p{
+    font-size: 16px;
+    font-family: "Nunito",arial,sans-serif;
+    
+
+}
+
+
+.video-content .video-img img{
+ height: 30vh; 
+   width: 150%; 
+   padding-right: 0rem; 
+   transform: translate(-17%);
+
+   
+}
+.video-text a{
+    padding: 5px 20px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+   line-height: 20px;
+   background-color: #37a2ff;
+}
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 7rem;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.8em 0;
+    position: relative;
+    font-size: 12px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #081f46;
+  }
+  i {
+    color:#081F46;
+    font-size: 2em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 60%;
+  transform: translate(40%);
+  margin-top: 90px;
+  text-transform: uppercase;
+  
+  
+}
+.our-partners .our-underline img {
+    width: 30%;   
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;  
+  
+ 
+}
+
+
+.container-images .partner-img img{
+   padding: 2rem 4rem;
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:100px;  
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .partner-img img{
+    padding:  3rem 7rem;   
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:100px; 
+
+}
+
+
+    
+}
+
+@media screen and (max-width:769px) {
+
+    /* background view [page] start */    
+      
+
+.back{
+    background-color: #eef9ff;
+    height: 56vh;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 120px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 58px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+    
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.text h5{
+    font-size: 16px;
+    text-align: center;
+    color: #081F46;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+/* background view [page] End */
+/* about our company slide */
+
+
+.about_our_company{
+    padding: 3rem;
+    margin-bottom: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: -10px;
+  
+    
+    
+ 
+}
+.about_our_company .about {
+    width: 70%;
+    
+}
+
+.about_our_company .about h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    font-family: "Dosis", arial, sans-serif;
+    
+    }
+.about_our_company .about p{
+    font-weight: normal;
+    font-size: 17px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+
+.about_our_company .people img{ 
+    width: 100%;
+}
+/* about company company slide end */
+/* our story start */
+.ourstory{
+    text-align:center;
+    width: 70%;
+  transform: translate(20%);
+  margin-top: 70px;
+  
+  
+}
+.ourstory .underline img {
+    width: 30%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 51px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 20px;
+
+}
+
+
+.totalpng{
+    display: flex;
+    justify-content: center;
+align-items: center;
+padding: 0,6rem;
+gap: 20px;
+text-align: center;
+
+
+}
+.png-container{
+   
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+   
+    display: flex;
+   padding: 3rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 6vh;}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 12px;
+    margin-top: 2rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+/* water heading and inside features start */
+
+.water-heading{
+text-align: center;
+margin:70px
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 42px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:28px;
+line-height: 48px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 100%;    
+    margin-left: 100px;
+  
+    padding-bottom: 0.3rem;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 100%; 
+    margin-right: 100px;
+
+}
+
+
+.composition{
+    padding: 0.5rem;
+    line-height: 15px;
+   
+
+}
+.composition h2{
+ font-size: 15px;
+ font-weight: bolder;
+}
+
+.composition p{
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.composition-img img{
+
+    width: 140%;
+    margin-left: -63px;
+    padding: 1rem;
+    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 80px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+    
+    
+}
+.video-text{
+    width: 90%;
+    padding: 0.7rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.video-text h3{
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 50px;
+
+}
+.video-text p{
+    font-size: 16px;
+    font-family: "Nunito",arial,sans-serif;
+    
+
+}
+
+
+.video-content .video-img img{
+ height: 30vh; 
+   width: 150%; 
+   padding-right: 0rem; 
+   transform: translate(-17%);
+
+   
+}
+.video-text a{
+    padding: 5px 20px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+   line-height: 20px;
+   background-color: #37a2ff;
+}
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 7rem;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.8em 0;
+    position: relative;
+    font-size: 12px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #081f46;
+  }
+  i {
+    color:#081F46;
+    font-size: 2em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 60%;
+  transform: translate(40%);
+  margin-top: 90px;
+  text-transform: uppercase;
+  
+  
+}
+.our-partners .our-underline img {
+    width: 30%;   
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;  
+  
+ 
+}
+
+
+.container-images .partner-img img{
+   padding: 2rem 4rem;
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:100px;  
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .partner-img img{
+    padding:  3rem 7rem;   
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:100px; 
+
+}
+
+
+    
+}
+@media screen and (max-width:540px){
+    /* ackground view [page] start */     
+       
+
+.back{
+    background-color: #eef9ff;
+    height: 30vh;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 100px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+    
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.text h5{
+    font-size: 15px;
+    text-align: center;
+    color: #081F46;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+/* about our company slide */
+
+
+.about_our_company{
+    padding: 3rem;
+    margin-bottom: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 0px;
+  
+    
+    
+ 
+}
+.about_our_company .about {
+    width: 110%;
+    
+}
+
+.about_our_company .about h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    font-family: "Dosis", arial, sans-serif;
+    
+    }
+.about_our_company .about p{
+    font-weight: normal;
+    font-size: 17px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+
+.about_our_company .people img{ 
+    width: 110%;
+    transform: translate(-7%);
+}
+/* about company company slide end */
+
+
+
+.ourstory{
+    text-align:center;
+    width: 90%;
+  transform: translate(6%);
+  margin-top: 20px;
+  
+  
+}
+.ourstory .underline img {
+    width: 30%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 51px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 17px;
+
+}
+
+
+.totalpng{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.8rem;
+gap: 20px;
+text-align: center;
+
+
+}
+.png-container{
+   
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+   
+    display: flex;
+   padding: 1rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 6vh;
+}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 8px;
+    margin-top: 2rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+
+
+
+/* water heading and inside features start */
+
+.water-heading{
+    width: 90%;
+text-align: center;
+margin:40px;
+transform: translate(-5%);
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 26px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:22px;
+line-height: 48px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%;    
+    margin-left: 20px;  
+    padding-bottom: 0rem;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%; 
+    margin-right: 16px;
+
+}
+
+
+.composition{
+    padding: 0.3rem;
+  
+    line-height: 10px;
+   
+
+}
+.composition h2{
+ font-size: 12px;
+ font-weight: bolder;
+}
+
+.composition p{
+    font-size: 8px;
+    font-weight: bolder;
+}
+
+.composition-img img{
+
+    width: 130%;
+    margin-left:-40px;
+    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+}
+.video-text{
+    width: 99%;
+    padding: 0.8rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 39px;
+}
+
+.video-text h3{
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 30px;
+
+}
+.video-text p{
+    font-size: 14px;
+    font-family: "Nunito",arial,sans-serif;
+   margin-bottom: 1rem;
+
+
+}
+
+
+.video-content .video-img img{
+ height: 36vh; 
+   width: 140%; 
+   padding: 0rem; 
+   transform: translate(-14%);
+
+   
+}
+.video-text a{
+    padding: 5px 20px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+  
+   background-color: #37a2ff;
+   font-size: 6px;
+}
+
+
+
+   
+  
+
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 4rem;   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 23vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.7em 0;
+    position: relative;
+    font-size: 10px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #081f46;
+  }
+  i {
+    color:#081F46;
+    font-size: 2em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 2em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 0.7em;
+    text-align: center;
+    pad: 0.6em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 60%;
+  transform: translate(40%);
+  margin-top: 60px;
+  text-transform: uppercase; 
+}
+.our-partners .our-underline img {
+    width: 30%;   
+    transform: translate(-5%);
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0.20em;
+    font-family: "Dosis", arial, sans-serif;
+transform: translate(-5%);
+
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;  
+  
+ 
+}
+
+
+.container-images .partner-img img{
+   padding: 1rem 2rem 1rem 2rem;
+   transform: translate(-9%);
+   border-radius: 0;
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:70px;  
+   
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .partner-img img{
+    padding:  1.5rem 4rem 1.5rem 4.5rem;   
+    width: 98%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:60px; 
+   border-radius: 0;
+   transform: translate(-8%);
+}
+
+
+
+
+
+    
+}
+
+@media screen and (max-width:431px){
+    /* ackground view [page] start */     
+       
+
+.back{
+    background-color: #eef9ff;
+    height: 30vh;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 100px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+    
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.text h5{
+    font-size: 15px;
+    text-align: center;
+    color: #081F46;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+/* about our company slide */
+
+
+.about_our_company{
+    padding: 3rem;
+    margin-bottom: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 0px;
+  
+    
+    
+ 
+}
+.about_our_company .about {
+    width: 110%;
+    
+}
+
+.about_our_company .about h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    font-family: "Dosis", arial, sans-serif;
+    
+    }
+.about_our_company .about p{
+    font-weight: normal;
+    font-size: 17px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+
+.about_our_company .people img{ 
+    width: 110%;
+    transform: translate(-7%);
+}
+/* about company company slide end */
+
+
+
+.ourstory{
+    text-align:center;
+    width: 90%;
+  transform: translate(6%);
+  margin-top: 20px;
+  
+  
+}
+.ourstory .underline img {
+    width: 30%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 51px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 17px;
+
+}
+
+
+.totalpng{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.8rem;
+gap: 20px;
+text-align: center;
+
+
+}
+.png-container{
+   
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+   
+    display: flex;
+   padding: 1rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 6vh;
+}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 8px;
+    margin-top: 2rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+
+
+
+/* water heading and inside features start */
+
+.water-heading{
+    width: 90%;
+text-align: center;
+margin:40px;
+transform: translate(-5%);
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 26px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:22px;
+line-height: 48px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%;    
+    margin-left: 20px;  
+    padding-bottom: 0rem;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%; 
+    margin-right: 16px;
+
+}
+
+
+.composition{
+    padding: 0.3rem;
+  
+    line-height: 10px;
+   
+
+}
+.composition h2{
+ font-size: 12px;
+ font-weight: bolder;
+}
+
+.composition p{
+    font-size: 8px;
+    font-weight: bolder;
+}
+
+.composition-img img{
+
+    width: 130%;
+    margin-left:-40px;
+    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+}
+.video-text{
+    width: 90%;
+    padding: 0.8rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 39px;
+}
+
+.video-text h3{
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 30px;
+
+}
+.video-text p{
+    font-size: 14px;
+    font-family: "Nunito",arial,sans-serif;
+   margin-bottom: 1rem;
+
+
+}
+
+
+.video-content .video-img img{
+ height: 26vh; 
+   width: 110%; 
+   padding-right: 2rem; 
+   transform: translate(0%);
+
+   
+}
+.video-text a{
+    padding: 5px 20px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+  
+   background-color: #37a2ff;
+   font-size: 6px;
+}
+
+
+
+   
+  
+
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 4rem;   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.7em 0;
+    position: relative;
+    font-size: 10px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #081f46;
+  }
+  i {
+    color:#081F46;
+    font-size: 2em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 2em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 0.7em;
+    text-align: center;
+    pad: 0.6em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 60%;
+  transform: translate(40%);
+  margin-top: 60px;
+  text-transform: uppercase; 
+}
+.our-partners .our-underline img {
+    width: 30%;   
+    transform: translate(-5%);
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0.20em;
+    font-family: "Dosis", arial, sans-serif;
+transform: translate(-5%);
+
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;  
+  
+ 
+}
+
+
+.container-images .partner-img img{
+   padding: 1rem 2rem 1rem 2rem;
+   transform: translate(-9%);
+   border-radius: 0;
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:70px;  
+   
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .partner-img img{
+    padding:  1.5rem 4rem 1.5rem 4.5rem;   
+    width: 98%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:60px; 
+   border-radius: 0;
+   transform: translate(-8%);
+}
+
+
+
+
+
+    
+}
+
+
+@media screen and (max-width:426px) {
+
+    /* background view [page] start */    
+      
+
+.back{
+    background-color: #eef9ff;
+    height: 50vh;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 100px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+    
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.text h5{
+    font-size: 15px;
+    text-align: center;
+    color: #081F46;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+/* background view [page] End */
+/* about our company slide */
+
+
+.about_our_company{
+    padding: 3rem;
+    margin-bottom: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 0px;
+  
+    
+    
+ 
+}
+.about_our_company .about {
+    width: 110%;
+    
+}
+
+.about_our_company .about h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    font-family: "Dosis", arial, sans-serif;
+    
+    }
+.about_our_company .about p{
+    font-weight: normal;
+    font-size: 17px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+
+.about_our_company .people img{ 
+    width: 110%;
+    transform: translate(-7%);
+}
+/* about company company slide end */
+/* our story start */
+.ourstory{
+    text-align:center;
+    width: 90%;
+  transform: translate(6%);
+  margin-top: 20px;
+  
+  
+}
+.ourstory .underline img {
+    width: 30%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 51px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 17px;
+
+}
+
+
+.totalpng{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.8rem;
+gap: 20px;
+text-align: center;
+
+
+}
+.png-container{
+   
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+   
+    display: flex;
+   padding: 1rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 9vh;
+}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 8px;
+    margin-top: 2rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+/* water heading and inside features start */
+
+.water-heading{
+    width: 90%;
+text-align: center;
+margin:40px;
+transform: translate(-5%);
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 26px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:22px;
+line-height: 48px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%;    
+    margin-left: 20px;  
+    padding-bottom: 0rem;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%; 
+    margin-right: 16px;
+
+}
+
+
+.composition{
+    padding: 0.3rem;
+  
+    line-height: 10px;
+   
+
+}
+.composition h2{
+ font-size: 12px;
+ font-weight: bolder;
+}
+
+.composition p{
+    font-size: 6px;
+    font-weight: bolder;
+}
+
+.composition-img img{
+
+    width: 140%;
+    margin-left:-50px;
+    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.video-text{
+    width: 50%;
+    padding: 0.2rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    line-height: 9px;
+}
+
+.video-text h3{
+    font-size: 9px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 3px;
+
+}
+.video-text p{
+    font-size: 9px;
+    font-family: "Nunito",arial,sans-serif;
+    
+
+}
+
+
+.video-content .video-img img{
+ height: 26vh; 
+   width: 110%; 
+   padding-right: 2rem; 
+   transform: translate(1%);
+
+   
+}
+.video-text a{
+    padding: 5px 20px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+   line-height: 0px;
+   background-color: #37a2ff;
+   font-size: 6px;
+}
+
+
+
+   
+  
+
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 4rem;   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.7em 0;
+    position: relative;
+    font-size: 10px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #081f46;
+  }
+  i {
+    color:#081F46;
+    font-size: 2em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 2em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 0.7em;
+    text-align: center;
+    pad: 0.6em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 60%;
+  transform: translate(40%);
+  margin-top: 60px;
+  text-transform: uppercase; 
+}
+.our-partners .our-underline img {
+    width: 30%;   
+    transform: translate(-5%);
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0.20em;
+    font-family: "Dosis", arial, sans-serif;
+transform: translate(-5%);
+
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;  
+  
+ 
+}
+
+
+.container-images .partner-img img{
+   padding: 1rem 2rem 1rem 2rem;
+   transform: translate(-9%);
+   border-radius: 0;
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:70px;  
+   
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .partner-img img{
+    padding:  1.5rem 4rem 1.5rem 4.5rem;   
+    width: 98%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:60px; 
+   border-radius: 0;
+   transform: translate(-8%);
+}
+
+
+    
+}
+
+
+@media screen and (max-width:415px){
+    /* ackground view [page] start */     
+       
+
+.back{
+    background-color: #eef9ff;
+    height: 30vh;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 100px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+    
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.text h5{
+    font-size: 15px;
+    text-align: center;
+    color: #081F46;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+
+.ourstory{
+    text-align:center;
+    width: 90%;
+  transform: translate(6%);
+  margin-top: 20px;
+  
+  
+}
+.ourstory .underline img {
+    width: 30%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 51px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 17px;
+
+}
+
+
+.totalpng{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.8rem;
+gap: 20px;
+text-align: center;
+
+
+}
+.png-container{
+   
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+   
+    display: flex;
+   padding: 1rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 5vh;
+}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 8px;
+    margin-top: 2rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+
+
+
+/* water heading and inside features start */
+
+.water-heading{
+    width: 90%;
+text-align: center;
+margin:40px;
+transform: translate(-5%);
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 26px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:22px;
+line-height: 48px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%;    
+    margin-left: 20px;  
+    padding-bottom: 0rem;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 90%; 
+    margin-right: 16px;
+
+}
+
+
+.composition{
+    padding: 0.3rem;
+  
+    line-height: 10px;
+   
+
+}
+.composition h2{
+ font-size: 12px;
+ font-weight: bolder;
+}
+
+.composition p{
+    font-size: 8px;
+    font-weight: bolder;
+}
+
+.composition-img img{
+
+    width: 130%;
+    margin-left:-40px;
+    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+}
+.video-text{
+    width: 90%;
+    padding: 0.8rem;
+   
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 39px;
+}
+
+.video-text h3{
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 30px;
+
+}
+.video-text p{
+    font-size: 14px;
+    font-family: "Nunito",arial,sans-serif;
+   margin-bottom: 1rem;
+
+
+}
+
+
+.video-content .video-img img{
+ height: 26vh; 
+   width: 110%; 
+   padding-right: 2rem; 
+   transform: translate(0%);
+
+   
+}
+.video-text a{
+    padding: 5px 20px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+  
+   background-color: #37a2ff;
+   font-size: 6px;
+}
+
+
+
+   
+  
+
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 4rem;   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.7em 0;
+    position: relative;
+    font-size: 10px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #081f46;
+  }
+  i {
+    color:#081F46;
+    font-size: 2em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 2em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 0.7em;
+    text-align: center;
+    pad: 0.6em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 60%;
+  transform: translate(40%);
+  margin-top: 60px;
+  text-transform: uppercase; 
+}
+.our-partners .our-underline img {
+    width: 30%;   
+    transform: translate(-5%);
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0.20em;
+    font-family: "Dosis", arial, sans-serif;
+transform: translate(-5%);
+
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;  
+  
+ 
+}
+
+
+.container-images .partner-img img{
+   padding: 1rem 2rem 1rem 2rem;
+   transform: translate(-9%);
+   border-radius: 0;
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:70px;  
+   
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .partner-img img{
+    padding:  1.5rem 4rem 1.5rem 4.5rem;   
+    width: 98%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:60px; 
+   border-radius: 0;
+   transform: translate(-8%);
+}
+
+
+
+
+
+    
+}
+
+
+@media screen and (max-width:376px) {
+        /* background view [page] start */    
+      
+
+.back{
+    background-color: #eef9ff;
+    height: 40vh;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 100px;
+}
+
+.overlay h3{
+    margin: 0 0 0.50em 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    font-family:"Dosis", arial, sans-serif;
+    color: #081f46;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+    
+    text-decoration:none;
+    background-color: #37a2ff;
+    padding: 5px 25px;    
+    border-radius: 20px;
+    color: #ffffff;   
+    white-space: nowrap;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.text h5{
+    font-size: 13px;
+    text-align: center;
+    color: #081F46;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+/* background view [page] End */
+/* about our company slide */
+
+
+.about_our_company{
+    padding: 3rem;
+    margin-bottom: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 29px;
+  width: 100%;
+    
+    
+ 
+}
+.about_our_company .about {
+    width: 120%;
+    padding-bottom: 1rem;
+    
+}
+
+.about_our_company .about h2{
+font-size: 20px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    font-family: "Dosis", arial, sans-serif;
+    
+    }
+.about_our_company .about p{
+    font-weight: normal;
+    font-size: 17px;
+    font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+
+.about_our_company .people img{ 
+    width: 120%;
+    transform: translate(-10%);
+}
+/* about company company slide end */
+/* our story start */
+.ourstory{
+    text-align:center;
+    width: 90%;
+  transform: translate(6%);
+  margin-top: 10px;
+  
+  
+}
+.ourstory .underline img {
+    width: 30%;   
+}
+
+.ourstory .underline h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 51px;
+    letter-spacing: 1px;
+    margin-bottom: 0em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 16px;
+padding-bottom: 1rem;
+
+}
+
+
+.totalpng{
+    display: flex;
+    justify-content: center;
+align-items: center;
+padding: 0.5rem;
+gap: 5px;
+text-align: center;
+
+
+}
+.png-container{
+   
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+   
+    display: flex;
+   padding: 1rem;    
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+ 
+}
+   
+
+.png-container .img-content img{
+    height: 6vh;
+}
+
+.png-container h2{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 8px;
+    margin-top: 1rem;
+    text-transform: uppercase;   
+  
+}
+/* our story end */
+
+/* water heading and inside features start */
+
+.water-heading{
+    width: 90%;
+text-align: center;
+margin:50px;
+transform: translate(-9%);
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 26px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:23px;
+line-height: 28px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+    
+}
+
+.alter-combo{
+   
+    font-family: "Nunito",arial,sans-serif;
+    width: 100%;    
+    margin-left: 10px;  
+    padding-bottom: 0.5rem;
+   
+}
+.alter-combos2{
+    font-family: "Nunito",arial,sans-serif;
+    width: 100%; 
+    margin-right: 10px;
+
+}
+
+
+.composition{
+    padding: 0.3rem;
+    line-height:normal;
+   
+
+}
+.composition h2{
+ font-size: 10px;
+ font-weight: bolder;
+ padding-bottom: 0;
+ 
+
+
+}
+
+.composition p{
+    font-size: 7px;
+    font-weight: bolder;
+   
+ 
+}
+
+.composition-img img{
+
+    width: 125%;
+    margin-left:-30px;    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+    display: flex;
+    padding-top: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.video-text{
+    width: 98%;
+    padding: 1rem;
+      
+}
+
+.video-text h1{
+    font-family: "Dosis", arial, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+
+.video-text h3{
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: "Nunito",arial,sans-serif;
+    line-height: 30px;
+
+}
+.video-text p{
+    font-size: 14px;
+    font-family: "Nunito",arial,sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+
+}
+
+
+.video-content .video-img img{
+ height: 30vh; 
+   width: 130%; 
+   padding-right: 6rem; 
+   transform: translate(-1%);
+
+   
+}
+.video-text a{
+    padding: 5px 25px;    
+    border-radius: 20px;    
+   color: #ffffff;
+   text-decoration: none;
+   line-height: 25px;
+   background-color: #37a2ff;
+   font-size: small;
+}
+/* counting numbers */
+
+.wrapper {
+   width: 100%;
+   margin-top: 4rem;   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+  }
+  .container {
+    width: 60vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.7em 0;
+    position: relative;
+    font-size:8px;
+   font-family:"Dosis", arial, sans-serif; ;
+    background-color:#37a2ff;
+    border-bottom: 10px solid #081f46;
+  }
+  i {
+    color:#081F46;
+    font-size: 2em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.6em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+ 
+
+
+
+/* end */
+
+
+.our-partners{
+    text-align:center;
+    width: 70%;
+  transform: translate(25%);
+  margin-top: 50px;
+  text-transform: uppercase; 
+}
+.our-partners .our-underline img {
+    width: 40%;   
+}
+
+.our-partners .our-underline h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 61px;
+    letter-spacing: 1px;
+    margin-bottom: 0.20em;
+    font-family: "Dosis", arial, sans-serif;
+  
+}
+
+.container-images{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.1rem; 
+  
+  
+ 
+}
+
+
+.container-images .partner-img img{
+   padding: 1.2rem 1.2rem;
+   transform: translate(0.5%);
+    width: 86%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:90px;  
+   
+
+}
+.container2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .partner-img img{
+    margin-top: 0.5rem;
+    padding:  2rem 4rem;   
+    width: 95%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+    margin-right:60px; 
+
+}
+
+
+    
+}
+
+@media screen and (max-width:321px) {
+    /* background view [page] start */    
+  
+
+.back{
+background-color: #eef9ff;
+height: 40vh;
+box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+}
+.overlay{
+text-align: center;
+text-transform: uppercase;
+padding-top: 100px;
+}
+
+.overlay h3{
+margin: 0 0 0.50em 0;
+font-weight: 700;
+font-size: 30px;
+line-height: 48px;
+font-family:"Dosis", arial, sans-serif;
+color: #081f46;
+}
+.text{
+display: flex;
+align-items: center;
+justify-content: center;    
+font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn{
+
+text-decoration:none;
+background-color: #37a2ff;
+padding: 5px 25px;    
+border-radius: 20px;
+color: #ffffff;   
+white-space: nowrap;
+margin-right: 0.4rem;
+margin-bottom: 0.4rem;
+}
+
+.text h5{
+font-size: 13px;
+text-align: center;
+color: #081F46;
+font-weight: 600;
+line-height: 1em;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+}
+
+
+/* background view [page] End */
+/* about our company slide */
+
+
+.about_our_company{
+padding: 3rem;
+margin-bottom: 0.1rem;
+display: flex;
+flex-direction: column;
+justify-content:space-evenly;
+align-items: center;
+margin-left: 10px;
+margin-top: 29px;
+
+
+
+
+}
+.about_our_company .about {
+width: 120%;
+
+}
+
+.about_our_company .about h2{
+font-size: 20px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.about_our_company .about h3{
+font-weight: 600;
+font-size: 17px;
+line-height: 10px;
+letter-spacing: 1px;
+font-family: "Dosis", arial, sans-serif;
+
+}
+.about_our_company .about p{
+font-weight: normal;
+font-size: 17px;
+font-family: "Nunito", arial, sans-serif;
+}
+
+
+.about_our_company .people{
+width:100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:center;
+
+}
+
+.about_our_company .people img{ 
+width: 120%;
+}
+/* about company company slide end */
+/* our story start */
+.ourstory{
+text-align:center;
+width: 90%;
+transform: translate(6%);
+margin-top: 10px;
+
+
+}
+.ourstory .underline img {
+width: 30%;   
+}
+
+.ourstory .underline h2{
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+letter-spacing: 1px;
+margin-bottom: 0em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.ourstory p{
+font-family: "Nunito", arial, sans-serif;
+font-size: 15px;
+padding-bottom: 1rem;
+
+}
+
+
+.totalpng{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+gap: 5px;
+text-align: center;
+
+
+}
+.png-container{
+
+display: grid;
+justify-content: center;
+align-items: center;
+
+
+}
+.png-container .img-content{
+display: flex;
+padding: 1rem;    
+border-radius: 100% 100% 100% 100%;
+box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+
+}
+
+
+.png-container .img-content img{
+   
+height: 6vh;
+}
+
+.png-container h2{
+font-family: "Dosis", arial, sans-serif;
+font-size: 8px;
+margin-top: 1rem;
+text-transform: uppercase;   
+
+}
+/* our story end */
+
+/* water heading and inside features start */
+
+.water-heading{
+width: 90%;
+text-align: center;
+margin:40px;
+transform: translate(-9%);
+}
+
+.water-heading h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 23px;
+font-weight: bolder;
+}
+.water-heading h2{
+
+text-transform: uppercase;
+font-size:21px;
+line-height: 29px;
+}
+.composition-overall{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -19px;
+width: 100%;
+
+}
+
+.alter-combo{
+
+font-family: "Nunito",arial,sans-serif;
+width: 100%;    
+margin-left: 10px;  
+padding-bottom: 0rem;
+
+}
+.alter-combos2{
+font-family: "Nunito",arial,sans-serif;
+width: 100%; 
+margin-right: 10px;
+
+}
+
+
+.composition{
+padding: 0.2rem;
+line-height:normal;
+
+
+}
+.composition h2{
+font-size: 8px;
+font-weight: bolder;
+padding-bottom: 0px;
+
+
+}
+
+.composition p{
+font-size: 7px;
+font-weight: bolder;
+
+
+}
+
+.composition-img img{
+
+width: 150%;
+margin-left:-50px;    
+}
+/* water heading and inside features end */
+/* video top image */
+.video-content{
+
+display: flex;
+padding-top: 90px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+.video-text{
+width: 98%;
+padding: 1rem;
+  
+}
+
+.video-text h1{
+font-family: "Dosis", arial, sans-serif;
+font-size: 18px;
+font-weight: bolder;
+line-height: 50px;
+}
+
+.video-text h3{
+font-size: 12px;
+font-weight: bolder;
+font-family: "Nunito",arial,sans-serif;
+line-height: 30px;
+
+}
+.video-text p{
+font-size: 14px;
+font-family: "Nunito",arial,sans-serif;
+letter-spacing: 1px;
+padding-bottom: 1rem;
+
+}
+
+
+.video-content .video-img img{
+height: 30vh; 
+width: 130%; 
+padding-right: 6rem; 
+transform: translate(-1%);
+
+
+}
+.video-text a{
+padding: 5px 25px;    
+border-radius: 20px;    
+color: #ffffff;
+text-decoration: none;
+line-height: 25px;
+background-color: #37a2ff;
+font-size: small;
+}
+/* counting numbers */
+
+.wrapper {
+width: 100%;
+margin-top: 4rem;   
+display: flex;
+justify-content:center;
+align-items: center;
+
+
+}
+.container {
+width: 60vmin;
+height: 28vmin;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 0.7em 0;
+position: relative;
+font-size: 8px;
+font-family:"Dosis", arial, sans-serif; ;
+background-color:#37a2ff;
+border-bottom: 10px solid #081f46;
+}
+i {
+color:#081F46;
+font-size: 2em;
+text-align: center;
+}
+span.num {
+color: #ffffff;
+display: grid;
+place-items: center;
+font-weight: 600;
+font-size: 3em;
+}
+span.text {
+color: #e0e0e0;
+font-size: 1em;
+text-align: center;
+pad: 0.6em 0;
+font-weight: 400;
+line-height: 0;
+}
+
+
+
+
+/* end */
+
+
+.our-partners{
+text-align:center;
+width: 70%;
+transform: translate(25%);
+margin-top: 50px;
+text-transform: uppercase; 
+}
+.our-partners .our-underline img {
+width: 40%;   
+}
+
+.our-partners .our-underline h2{
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 1px;
+margin-bottom: 0.20em;
+font-family: "Dosis", arial, sans-serif;
+
+}
+
+.container-images{
+
+align-items: center;
+display: flex;
+justify-content: center;
+padding: 0.3rem; 
+
+
+
+}
+
+
+.container-images .partner-img img{
+padding: 2rem 2.2rem;
+
+width: 90%;
+background-color: #FFFFFF;
+box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+margin-right:40px;  
+
+
+}
+.container2{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container2 .partner-img img{
+padding:  2rem 3.6rem;   
+width: 95%;
+background-color: #FFFFFF;
+box-shadow: 0px 8px 44px 0px rgba(41.00000000000001, 112.00000000000016, 250, 0.15);
+margin-right:40px; 
+transform: translate(-0.9%);
+
+}
+
+
+
+}
+
+
