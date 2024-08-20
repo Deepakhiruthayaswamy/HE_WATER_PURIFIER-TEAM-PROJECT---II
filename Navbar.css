@@ -23,6 +23,7 @@ a {
 }
 .navbar-nav .nav-link {
   color: #fff !important;
+  font-size: 17px;
 }
 .navbar-toggler-icon {
   background-color: #fff !important;
@@ -30,7 +31,7 @@ a {
 .icon {
   margin-left: 90px;
   margin-right: 50px;
-  font-size: 35px;
+  font-size: 34px;
   font-family: Dosis;
   font-weight: bold;
 }
@@ -41,7 +42,7 @@ a {
   margin-bottom: 15px;
 }
 .locate {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 20px;
   margin-right: 25px;
   font-family: Nunito Fonts;
@@ -54,4 +55,146 @@ a {
 
 .phone-icon {
   margin-left: 50px;
+}
+
+/* Media Queries */
+@media (max-width: 991px) and (min-width: 768px) {
+  .navbar h3 {
+    font-size: 24px !important;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .locate {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 55px;
+  }
+
+  .navbar-toggler {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .locate {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .locate {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .navbar h3 {
+    font-size: 18px !important;
+  }
+
+  .main-icon {
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .navbar {
+    background: #001442;
+    color: #fff;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .navbar h3 {
+    font-size: 22px !important;
+    text-align: center;
+  }
+
+  .navbar i {
+    font-size: 17px !important;
+    margin-left: -75px;
+  }
+  .collapse a {
+    font-size: 13px !important;
+    margin-right: -15px !important;
+    margin-top: 10px;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .locate {
+    font-size: 13px !important;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-left: 85px;
+  }
+  .phone-icon {
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .navbar h3 {
+    font-size: 21px !important;
+    text-align: center;
+  }
+  .navbar i {
+    font-size: 17px !important;
+    margin-left: -15px;
+  }
 }
