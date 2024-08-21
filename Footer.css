@@ -45,6 +45,9 @@ h6 {
 .fab {
   color: white;
 }
+.designed {
+  color: white !important;
+}
 
 .footer-item h6 {
   color: #6c757d !important;
@@ -74,7 +77,6 @@ h6 {
 .text-white {
   text-decoration: none;
 }
-
 
 /*** copyright end ***/
 
