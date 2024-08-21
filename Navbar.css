@@ -7,6 +7,7 @@ body {
 
 .navbar {
   color: black;
+  background: #eef9ff;
 }
 a {
   color: #fff;
@@ -25,7 +26,7 @@ a {
 
 .navbar-nav .nav-item {
   text-align: center;
-  margin-right: 30px;
+  margin-right: 23px;
 }
 .navbar-nav .nav-link {
   color: black !important;
