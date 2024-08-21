@@ -614,7 +614,7 @@ align-items: center;
    
     
   }
-  .container {
+  .wrapper .container {
     width: 60vmin;
     height: 28vmin;
     display: flex;
@@ -627,7 +627,7 @@ align-items: center;
     background-color:#37a2ff;
     border-bottom: 10px solid #081f46;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2.5em;
     text-align: center;
@@ -1094,7 +1094,7 @@ align-items: center;
    
     
   }
-  .container {
+  .wrapper .container {
     width: 60vmin;
     height: 28vmin;
     display: flex;
@@ -1107,7 +1107,7 @@ align-items: center;
     background-color:#37a2ff;
     border-bottom: 10px solid #f91818;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2.5em;
     text-align: center;
@@ -1507,7 +1507,7 @@ align-items: center;
    
     
   }
-  .container {
+  .wrapper .container {
     width: 60vmin;
     height: 28vmin;
     display: flex;
@@ -1518,9 +1518,9 @@ align-items: center;
     font-size: 16px;
    font-family:"Dosis", arial, sans-serif; ;
     background-color:#37a2ff;
-    border-bottom: 10px solid #f91818;
+    border-bottom: 10px solid #081F46;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2.5em;
     text-align: center;
@@ -1931,7 +1931,7 @@ flex-direction: column;
    
     
   }
-  .container {
+  .wrapper .container {
     width: 60vmin;
     height: 20vmin;
     display: flex;
@@ -1944,7 +1944,7 @@ flex-direction: column;
     background-color:#37a2ff;
     border-bottom: 10px solid #081f46;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2em;
     text-align: center;
@@ -2356,7 +2356,7 @@ flex-direction: column;
    
     
   }
-  .container {
+.wrapper .container {
     width: 60vmin;
     height: 28vmin;
     display: flex;
@@ -2369,7 +2369,7 @@ flex-direction: column;
     background-color:#37a2ff;
     border-bottom: 10px solid #081f46;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2em;
     text-align: center;
@@ -2848,7 +2848,7 @@ flex-direction: column;
    
     
   }
-  .container {
+  .wrapper .container {
     width: 60vmin;
     height: 28vmin;
     display: flex;
@@ -2861,7 +2861,7 @@ flex-direction: column;
     background-color:#37a2ff;
     border-bottom: 10px solid #081f46;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2em;
     text-align: center;
@@ -3283,7 +3283,7 @@ width: 100%;
    
     
   }
-  .container {
+  .wrapper .container {
     width: 60vmin;
     height: 23vmin;
     display: flex;
@@ -3296,7 +3296,7 @@ width: 100%;
     background-color:#37a2ff;
     border-bottom: 10px solid #081f46;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2em;
     text-align: center;
@@ -3727,7 +3727,7 @@ width: 100%;
    
     
   }
-  .container {
+.wrapper .container {
     width: 60vmin;
     height: 28vmin;
     display: flex;
@@ -3740,7 +3740,7 @@ width: 100%;
     background-color:#37a2ff;
     border-bottom: 10px solid #081f46;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2em;
     text-align: center;
@@ -4229,7 +4229,7 @@ width: 100%;
    
     
   }
-  .container {
+  .wrapper .container {
     width: 60vmin;
     height: 28vmin;
     display: flex;
@@ -4242,7 +4242,7 @@ width: 100%;
     background-color:#37a2ff;
     border-bottom: 10px solid #081f46;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2em;
     text-align: center;
@@ -4609,7 +4609,7 @@ width: 100%;
    
     
   }
-  .container {
+  .wrapper .container {
     width: 60vmin;
     height: 28vmin;
     display: flex;
@@ -4622,7 +4622,7 @@ width: 100%;
     background-color:#37a2ff;
     border-bottom: 10px solid #081f46;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2em;
     text-align: center;
@@ -5049,7 +5049,7 @@ width: 100%;
    
     
   }
-  .container {
+  .wrapper .container {
     width: 60vmin;
     height: 28vmin;
     display: flex;
@@ -5062,7 +5062,7 @@ width: 100%;
     background-color:#37a2ff;
     border-bottom: 10px solid #081f46;
   }
-  i {
+  .wrapper .container i {
     color:#081F46;
     font-size: 2em;
     text-align: center;
@@ -5479,7 +5479,7 @@ align-items: center;
 
 
 }
-.container {
+.wrapper .container {
 width: 60vmin;
 height: 28vmin;
 display: flex;
@@ -5492,7 +5492,7 @@ font-family:"Dosis", arial, sans-serif; ;
 background-color:#37a2ff;
 border-bottom: 10px solid #081f46;
 }
-i {
+.wrapper .container i {
 color:#081F46;
 font-size: 2em;
 text-align: center;
@@ -5591,5 +5591,7 @@ transform: translate(-0.9%);
         font-size: 30px;
     }
 }
+
+
 
 
