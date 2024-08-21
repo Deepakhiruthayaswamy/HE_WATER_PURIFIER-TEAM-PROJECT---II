@@ -2,12 +2,11 @@
 
 body {
   margin: 0;
-  font-family: "Dosis", sans-serif;
+  font-family: "Nunito";
 }
 
 .navbar {
-  background: #001442;
-  color: #fff;
+  color: black;
 }
 a {
   color: #fff;
@@ -29,7 +28,7 @@ a {
   margin-right: 30px;
 }
 .navbar-nav .nav-link {
-  color: #fff !important;
+  color: black !important;
   font-size: 17px;
 }
 .navbar-nav .nav-link:hover {

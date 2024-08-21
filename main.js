@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('Header.html')
+    fetch('Navbar.html')
       .then(response => response.text())
       .then(data => {
-        document.querySelector('header').innerHTML = data;
+        document.querySelector('navbar').innerHTML = data;
       });
   
     fetch('Footer.html')
