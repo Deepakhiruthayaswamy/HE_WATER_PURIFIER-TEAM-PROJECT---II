@@ -1,322 +1,298 @@
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
 
 /* header section  */
 
 #header-wave {
-    background-color: #eef9ff;
+  background-color: #eef9ff;
 }
-.Customheaderlinks{
-    display: flex;
-    flex-direction: row;
-padding-bottom: 2rem;
-}
-
-
-.Customheader{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #eef9ff;
-}
-.Customheaderbutton{
-    padding: 5px 12px;
-    border-radius: 20px;
-    text-decoration: none;
-    background-color: #379eff;
-}
-.Custombuttonhover:hover{
-    background-color: #081F46;
+.Customheaderlinks {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
 }
 
+.Customheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eef9ff;
+}
+.Customheaderbutton {
+  padding: 5px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: #379eff;
+}
+.Custombuttonhover:hover {
+  background-color: #081f46;
+}
 
 /* Product section  */
 
 .CustomproductSection {
-    padding: 0rem 4.8rem;
-    display: flex;
-    flex-direction: row;
-    gap: 1.8rem;
-
-
+  padding: 0rem 4.8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.8rem;
 }
 
 .Customproduct {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .Customproductrow {
-    display: flex;
-    gap: 1.8rem;
-    
+  display: flex;
+  gap: 1.8rem;
 }
 
 .Customproductcards {
-    position: relative;
-    margin-top: 3.2rem;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 0.9rem;
-    padding: 2rem;
+  position: relative;
+  margin-top: 3.2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.9rem;
+  padding: 2rem;
 
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    cursor: pointer;
-
-    
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
 }
 
 .Customproductcards img {
-    height: 32rem;
-    width: 28.8rem;
-    
+  height: 32rem;
+  width: 28.8rem;
 }
 
 .Customsale {
-    position: absolute;
-    right: 0px;
-    top: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
 
 .Customsale img {
-    width: 8rem;
-    height: 8rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 /* customsidebar  */
 
 .Customsidebar {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .Customsidebarcards {
-    
-    margin-top: 3.2rem;
-    padding: 2.4rem;
-    background-color: white;
-    border-radius: 0.9rem;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 3.2rem;
+  padding: 2.4rem;
+  background-color: white;
+  border-radius: 0.9rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .Customsidebarcontent {
-    display: flex;
-    background-color: #eef9ff;
-    padding-left: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 0.9rem;
+  display: flex;
+  background-color: #eef9ff;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.9rem;
 }
 
 .Customsidebarimg img {
-    border-radius: 100%;
-    width: 6rem;
-    height: 6rem;
-    margin-right: 1rem;
-    background-color: #dfdfdf;
-    margin-top: 1rem;
+  border-radius: 100%;
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
+  background-color: #dfdfdf;
+  margin-top: 1rem;
 }
 
 .Customsidebardetails {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /* text  */
-.Customheaderbutton{
-    font-family: 'Nunito', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    color: white;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
-
+.Customheaderbutton {
+  font-family: "Nunito", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
 }
-.Customheaderlink{
-    color: black;
-    border-radius: 0rem;
-    background-color: transparent;
-    padding: 0.5rem 0.5rem;
+.Customheaderlink {
+  color: black;
+  border-radius: 0rem;
+  background-color: transparent;
+  padding: 0.5rem 0.5rem;
+}
 
-   }
-
-.Customheading{
-    font-family: 'Dosis', Arial, sans-serif;
-    color: rgb(8, 31, 70);
-    font-style: normal;
-    font-weight: 700;
-    line-height: 6.1rem;
-    font-size: 5.5rem;
-    text-align: center;
+.Customheading {
+  font-family: "Dosis", Arial, sans-serif;
+  color: rgb(8, 31, 70);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.1rem;
+  font-size: 5.5rem;
+  text-align: center;
 }
 .Customsidebarpara {
-    font-style: normal;
-    font-family: 'Nunito', Arial, sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 2rem;
-
+  font-style: normal;
+  font-family: "Nunito", Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
 }
 
 .Customproductnamepara {
-    font-family: 'Dosis', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.1rem;
-    margin-top: 1.2rem;
-
+  font-family: "Dosis", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.1rem;
+  margin-top: 1.2rem;
 }
 
 .Custompricepara {
-    font-family: 'Nunito', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 1.8rem;
-    margin-top: 0.6rem;
+  font-family: "Nunito", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.8rem;
+  margin-top: 0.6rem;
 }
 
 .Customstars {
-    font-weight: 400;
-    font-size: 2.1rem;
-    margin: 0px;
-    letter-spacing: -0.3rem;
-   color: rgb(55, 158, 255);
+  font-weight: 400;
+  font-size: 2.1rem;
+  margin: 0px;
+  letter-spacing: -0.3rem;
+  color: rgb(55, 158, 255);
 }
 
-
 .Customcatpara {
-    font-style: normal;
-    font-family: 'Nunito', Arial, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: rgb(55, 158, 255);
+  font-style: normal;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(55, 158, 255);
 }
 
 .Custombutton {
-    font-style: normal;
-    font-family: 'Nunito', Arial, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: rgb(55, 158, 255);
-    padding: .3rem .8rem;
-    border-radius: 2rem;
-    margin: 0.5rem;
-    border: none;
+  font-style: normal;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(55, 158, 255);
+  padding: 0.3rem 0.8rem;
+  border-radius: 2rem;
+  margin: 0.5rem;
+  border: none;
 }
 
 .Custombutton:hover {
-    background-color: rgb(55, 158, 255);
-    color: white;
+  background-color: rgb(55, 158, 255);
+  color: white;
 }
 
 .Customline {
-    color: rgb(55, 158, 255);
-    margin-right: 0.5rem;
-
+  color: rgb(55, 158, 255);
+  margin-right: 0.5rem;
 }
 
 .CustomStrike {
-    color: #838fa2;
-    text-decoration: line-through;
-    margin-right: 0.5rem;
+  color: #838fa2;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
 }
 
 .Custommargin {
-    margin: 0px;
+  margin: 0px;
 }
-
-
-
 
 /* mediaquery  */
 
-@media screen and (max-width:1386px) {
-    html {
-        font-size: 9px;
-    }
+@media screen and (max-width: 1386px) {
+  html {
+    font-size: 9px;
+  }
 }
 
-@media screen and (max-width:1246px) {
-    html {
-        font-size: 7.8px;
-    }
+@media screen and (max-width: 1246px) {
+  html {
+    font-size: 7.8px;
+  }
 }
 
-@media screen and (max-width:1088px) {
-    html {
-        font-size: 10px;
-    }
+@media screen and (max-width: 1088px) {
+  html {
+    font-size: 10px;
+  }
 
-    .CustomproductSection {
-        
-        flex-direction: column;
-    }
+  .CustomproductSection {
+    flex-direction: column;
+  }
 
-    .Customproductrow {
-        justify-content: space-between;
-    }
+  .Customproductrow {
+    justify-content: space-between;
+  }
 
-    .Customproductcards img {
-        width: 24rem;
-    }
+  .Customproductcards img {
+    width: 24rem;
+  }
 
-    .Customproductcards,.Customsidebarcards {
-        border-radius: 0.9rem;
-    }
-    .Customsale img {
-        width: 6.4rem;
-        height: 6.4rem;
-    }
-
-
+  .Customproductcards,
+  .Customsidebarcards {
+    border-radius: 0.9rem;
+  }
+  .Customsale img {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
 }
 
-@media screen and (max-width:989px) {
-    html {
-        font-size: 9px;
-    }
+@media screen and (max-width: 989px) {
+  html {
+    font-size: 9px;
+  }
 }
 
-@media screen and (max-width:883px) {
-    html {
-        font-size: 8px;
-    }
+@media screen and (max-width: 883px) {
+  html {
+    font-size: 8px;
+  }
 }
 
-@media screen and (max-width:795px) {
-    html {
-        font-size: 10px;
-    }
+@media screen and (max-width: 795px) {
+  html {
+    font-size: 10px;
+  }
 
-    .Customproductrow {
-        flex-direction: column;
-    }
+  .Customproductrow {
+    flex-direction: column;
+  }
 
-
-    .Customsale img {
-        width: 8rem;
-        height: 8rem;
-    }
-
+  .Customsale img {
+    width: 8rem;
+    height: 8rem;
+  }
 }
 
-@media screen and (max-width:417px) {
-
-    .CustomproductSection {
-        padding: 0rem 1rem;
-    }
+@media screen and (max-width: 417px) {
+  .CustomproductSection {
+    padding: 0rem 1rem;
+  }
 }
 
-@media screen and (max-width:313px) {
-    html {
-        font-size: 7px;
-    }
+@media screen and (max-width: 313px) {
+  html {
+    font-size: 7px;
+  }
 }

@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+}
+
 .navbar {
   background: #001442;
   color: #fff;
@@ -25,13 +32,17 @@ a {
   color: #fff !important;
   font-size: 17px;
 }
+.navbar-nav .nav-link:hover {
+  color: #379eff !important;
+}
+
 .navbar-toggler-icon {
   background-color: #fff !important;
 }
 .icon {
-  margin-left: 90px;
+  margin-left: 70px;
   margin-right: 50px;
-  font-size: 34px;
+  font-size: 30px;
   font-family: Dosis;
   font-weight: bold;
 }
@@ -167,7 +178,7 @@ a {
 
   .navbar i {
     font-size: 17px !important;
-    margin-left: -80px;
+    margin-left: -55px;
   }
   .collapse a {
     font-size: 13px !important;
@@ -192,15 +203,15 @@ a {
   }
 
   .locate {
-    font-size: 13px !important;
+    font-size: 12px !important;
     flex-direction: row;
     width: 100%;
     align-items: center;
     text-align: center;
-    margin-left: 85px;
+    margin-left: 65px;
   }
   .phone-icon {
-    margin-left: 100px;
+    margin-left: 75px;
   }
 }
 
