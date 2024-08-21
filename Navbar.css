@@ -38,6 +38,7 @@ a {
 
 .navbar-toggler-icon {
   background-color: #fff !important;
+  border-color: #fff !important;
 }
 .icon {
   margin-left: 70px;
@@ -163,7 +164,6 @@ a {
 
 @media (min-width: 992px) and (max-width: 1024px) {
   .navbar {
-    background: #001442;
     color: #fff;
     width: 100%;
     padding: 0;
@@ -176,6 +176,13 @@ a {
     text-align: center;
   }
 
+  .footer-item h3 {
+    color: black;
+  }
+
+  .locate p {
+    color: black;
+  }
   .navbar i {
     font-size: 17px !important;
     margin-left: -55px;

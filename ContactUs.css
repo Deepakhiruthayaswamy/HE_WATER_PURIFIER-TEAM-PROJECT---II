@@ -349,6 +349,169 @@ span {
 }
 
 /* Media Queries */
+/* For Tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .back {
+    background-color: #eef9ff;
+    height: 65vh;
+  }
+  .overlay h3 {
+    margin-top: -80px;
+    font-size: 30px;
+  }
+  .text h5 {
+    font-size: 13px;
+  }
+
+  .text a {
+    font-size: 11px;
+  }
+
+  .text-blk {
+    font-size: 15px !important;
+  }
+  .responsive-container-block {
+    display: flex;
+    flex-direction: row;
+  }
+  .responsive-cell-block {
+    width: 100%;
+    margin-top: -25px;
+    margin-bottom: 40px;
+  }
+  .input {
+    font-size: 14px !important;
+  }
+  .textinput {
+    font-size: 14px !important;
+    height: 10vh !important;
+  }
+  .submit-btn {
+    height: 40px !important;
+    font-size: 20px !important;
+  }
+
+  .office-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .location_heading {
+    font-size: 15px;
+  }
+  .heading-office h4,
+  .heading-office-2 h4 {
+    font-size: 15px;
+  }
+
+  .heading-office p,
+  .heading-office-2 p {
+    font-size: 13px;
+  }
+
+  .map {
+    height: 80vh;
+  }
+}
+
+/* Media Queries */
+/* For Smaller Laptops */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  navbar {
+    background-color: #eef9ff !important;
+  }
+  .back {
+    background-color: #eef9ff;
+    height: 65vh;
+  }
+  .overlay h3 {
+    margin-top: -80px;
+    font-size: 40px;
+  }
+  .text h5 {
+    font-size: 13px;
+  }
+
+  .text a {
+    font-size: 11px;
+  }
+
+  .text-blk {
+    font-size: 30px !important;
+  }
+  .contactus-subhead {
+    font-size: 23px !important;
+    margin-top: 15px;
+    margin-bottom: 70px !important;
+  }
+  #form-hed {
+    font-size: 18px !important;
+    margin-left: 8px;
+  }
+  .responsive-container-block {
+    display: flex;
+    flex-direction: row;
+  }
+  .responsive-cell-block {
+    width: 48%;
+    margin-top: -25px;
+    margin-bottom: 40px;
+  }
+
+  .responsive-cell-block input {
+    width: 90% !important;
+  }
+  .input,
+  .textinput {
+    font-size: 14px !important;
+    margin-bottom: 15px;
+  }
+  .textinput {
+    font-size: 14px !important;
+    height: 10vh !important;
+    margin-left: 17px;
+  }
+  .submit-btn {
+    height: 60px !important;
+    font-size: 23px !important;
+  }
+
+  .office-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .location_heading {
+    font-size: 23px !important;
+  }
+  .heading-office h4,
+  .heading-office-2 h4 {
+    font-size: 19px;
+  }
+
+  .heading-office p,
+  .heading-office-2 p {
+    font-size: 16px;
+  }
+
+  .map {
+    height: 150vh;
+  }
+}
+/*Media Queries for Bigger laptop */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .overlay h3 {
+    margin-top: -60px;
+  }
+  .back {
+    background-color: #eef9ff;
+    height: 90vh;
+  }
+}
+
+/* Media Queries */
 /* For Mobile */
 
 @media screen and (max-width: 320px) {
@@ -389,5 +552,93 @@ span {
   .submit-btn {
     height: 40px !important;
     font-size: 15px !important;
+  }
+
+  .office-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .location_heading {
+    font-size: 15px;
+  }
+  .heading-office h4,
+  .heading-office-2 h4 {
+    font-size: 16px;
+  }
+
+  .heading-office p,
+  .heading-office-2 p {
+    font-size: 13px;
+  }
+
+  .map {
+    height: 50vh;
+  }
+}
+
+/* Media Queries */
+/* For Bigger Mobile */
+
+@media screen and (min-width: 321px) and (max-width: 420px) {
+  .back {
+    background-color: #eef9ff;
+    height: 65vh;
+  }
+  .overlay h3 {
+    margin-top: -80px;
+    font-size: 19px;
+  }
+  .text h5 {
+    font-size: 13px;
+  }
+
+  .text a {
+    font-size: 11px;
+  }
+  .text-blk {
+    font-size: 11px !important;
+  }
+  .responsive-container-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .responsive-cell-block {
+    width: 100%;
+    margin-top: -25px;
+    margin-bottom: 40px;
+  }
+  .input {
+    font-size: 10px !important;
+  }
+  .textinput {
+    font-size: 10px !important;
+    height: 10vh !important;
+  }
+  .submit-btn {
+    height: 40px !important;
+    font-size: 15px !important;
+  }
+
+  .office-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .location_heading {
+    font-size: 15px;
+  }
+  .heading-office h4,
+  .heading-office-2 h4 {
+    font-size: 16px;
+  }
+
+  .heading-office p,
+  .heading-office-2 p {
+    font-size: 13px;
+  }
+
+  .map {
+    height: 50vh;
   }
 }
