@@ -1,7 +1,9 @@
 .Customsectiontwo{
     padding: 0rem 4.8rem;
 }
-
+.Customsidebarcards{
+    margin-bottom: 5rem;
+}
 .Customproductdetails{
     display: flex;
     flex-direction: row;

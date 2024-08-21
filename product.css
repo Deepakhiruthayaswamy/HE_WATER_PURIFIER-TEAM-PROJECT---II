@@ -7,7 +7,9 @@ body {
 }
 
 /* header section  */
-
+.Customheader{
+  padding: 5rem 0rem;
+}
 #header-wave {
   background-color: #eef9ff;
 }
@@ -40,6 +42,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 1.8rem;
+  margin-bottom: 5rem;
 }
 
 .Customproduct {
@@ -300,6 +303,7 @@ body {
 
 
 /* footer  */
+
 .customfont{
 
   font-size: 16px;
@@ -321,6 +325,6 @@ body {
 #custominputfield, .Subscribe-btn.customfont {
   font-size: 16px;
 }
-.customnavmargin{
-  margin-bottom: 3rem;
-}
+
+
+
