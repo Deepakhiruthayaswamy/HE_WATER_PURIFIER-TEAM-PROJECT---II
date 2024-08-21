@@ -78,11 +78,13 @@ padding-top: 140px;
 }
 
 /* gallery */
-.container{
-    width:65%;
+.containers{
+    width:50%;
     display: flex;
     flex-wrap: wrap;   
     justify-content:center;
+    align-items: center;
+    transform: translate(50%);
     
 }
 .img-c{
