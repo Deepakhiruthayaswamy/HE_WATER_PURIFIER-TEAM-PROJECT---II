@@ -25,13 +25,13 @@ html,body{
 
 .back{
     background-color: #eef9ff;
-    height: 50vh;
+    height: 40vh;
 
 }
 .overlay{
 text-align: center;
 text-transform: uppercase;
-padding-top: 140px;
+padding-top: 100px;
 }
 
 .overlay h3{
