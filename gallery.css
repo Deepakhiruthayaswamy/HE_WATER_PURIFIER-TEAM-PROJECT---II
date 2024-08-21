@@ -112,7 +112,7 @@ padding-top: 140px;
 
 /* media query */
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:769px){    
     /* background view [page] start */
 
 
@@ -171,11 +171,12 @@ padding-top: 140px;
 }
 
 /* gallery */
-.container{
-    width:65%;
+.containers{
+    width:70%;
     display: flex;
     flex-wrap: wrap;   
     justify-content:center;
+    transform: translate(120px);
     
 }
 .img-c{
@@ -216,7 +217,7 @@ padding-top: 140px;
 .overlay{
 text-align: center;
 text-transform: uppercase;
-padding-top: 140px;
+padding-top: 120px;
 }
 
 .overlay h3{
@@ -264,11 +265,12 @@ padding-top: 140px;
 }
 
 /* gallery */
-.container{
+.containers{
     width:95%;
     display: flex;
     flex-wrap: wrap;   
     justify-content:center;
+    transform: translate(0px);
     
 }
 .img-c{
