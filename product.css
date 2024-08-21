@@ -3,6 +3,7 @@ html {
 }
 body {
   margin: 0px;
+
 }
 
 /* header section  */
@@ -315,4 +316,11 @@ body {
 #custominputfield{
   font-size: 17.6px;
 
+}
+
+#custominputfield, .Subscribe-btn.customfont {
+  font-size: 16px;
+}
+.customnavmargin{
+  margin-bottom: 3rem;
 }
