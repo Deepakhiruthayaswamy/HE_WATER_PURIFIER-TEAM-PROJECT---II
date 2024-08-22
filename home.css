@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6{
     padding: 0;
     color: #333;
 }
-p{
+.nunito p{
     font-family: "Nunito",sans-serif;
 
 }
@@ -28,6 +28,7 @@ h2 {
     margin-top: 10%;
 }
 .header-section {
+    background-color: #eef9ff;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -35,6 +36,7 @@ h2 {
     padding: 20px;
     box-sizing: border-box;
 }
+
 
 /* Adjust the content to fit the space */
 .header-title1 {
@@ -492,6 +494,7 @@ h2 {
 /* Recent Posts Section */
 #our-blog {
     padding: 50px 0;
+    
 }
 
 .our-title {
