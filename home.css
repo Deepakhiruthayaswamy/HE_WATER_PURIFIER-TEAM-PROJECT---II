@@ -7,13 +7,13 @@ body{
     background-color: white;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: "dosis", sans-serif;
+    font-family: "Dosis", sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
 }
-p{
-    font-family: "Nunito";
+.nunito p{
+    font-family: "Nunito",sans-serif;
 
 }
 
@@ -28,6 +28,7 @@ h2 {
     margin-top: 10%;
 }
 .header-section {
+    background-color: #eef9ff;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -35,6 +36,7 @@ h2 {
     padding: 20px;
     box-sizing: border-box;
 }
+
 
 /* Adjust the content to fit the space */
 .header-title1 {
@@ -58,17 +60,17 @@ h2 {
     margin-bottom: 20px;
 }
 /* Scale the button size for better visibility */
-.btn {
+.btn2 {
+    background-color: #007BFF;
     display: inline-block;
     font-size: 1.3rem;
     padding: 10px 20px;
     border: none;
     border-radius: 25px;
     width: 175px;
+    color: white
 }
-.btn:hover{
-    background-color: white;
-    color: black;
+.btn2:hover{
     transform: scale(1.1);
 }
 .btn1 {
@@ -83,13 +85,11 @@ h2 {
     margin-left: 3%;
 }
 .btn1:hover{
-    background-color: #007bff;
-    color: white;
     transform: scale(1.1);
 }
 
 /* Ensure the image fits the available space */
-.img-fluid {
+.img-fluid1 {
     max-width: 50%;
     height: 50%;
     max-height: 50%;
@@ -347,6 +347,18 @@ h2 {
     padding: 10px 20px;
     font-size: 18px;
 }
+.btn3{
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    width: 175px;
+}
+.btrn3:hover{
+    transform: ;
+}
 
 
 
@@ -386,28 +398,28 @@ h2 {
     gap: 80px;
     
 }
-.story1{
+.storyy1{
     border-radius: 10%;
     object-fit: cover;
     margin: 0 10px;
     padding: 10px;
     background-color: rgb(204, 233, 243);
 }
-.story2{
+.storyy2{
     border-radius: 10%;
     object-fit: cover;
     margin: 0 10px;
     padding: 10px;
     background-color: rgb(204, 233, 243);
 }
-.story3{
+.storyy3{
     border-radius: 10%;
     object-fit: cover;
     margin: 0 10px;
     padding: 10px;
     background-color: rgb(204, 233, 243);
 }
-.story4{
+.storyy4{
     border-radius: 10%;
     object-fit: cover;
     margin: 0 10px;
@@ -415,11 +427,11 @@ h2 {
     background-color: rgb(204, 233, 243);
 }
 
-.icon img {
+.icon1 img {
     width: 150px;
     height: auto;
 }
-.icon:hover{
+.icon1:hover{
     transform: translateY(-10px);
 
 }
@@ -482,6 +494,7 @@ h2 {
 /* Recent Posts Section */
 #our-blog {
     padding: 50px 0;
+    
 }
 
 .our-title {
