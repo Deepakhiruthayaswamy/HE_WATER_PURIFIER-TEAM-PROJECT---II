@@ -194,7 +194,7 @@ h2 {
     font-size: 1.5rem;
 
 }
-.left-content ,p{
+.left-content p{
     text-align: right;
 }
 .right-content p{
@@ -316,11 +316,11 @@ h2 {
     flex: 1; /* Ensures the content takes up the remaining right side */
     padding-left: 800px; /* Adds space between the image and content */
 }
-.col-md-6{
+.six{
     display: flex;
     color: #333;
 }
-.col-md-6 h2{
+.six h2{
     font-size: 3.5rem;
     margin-top: -3%;
     margin-bottom: 8%;
