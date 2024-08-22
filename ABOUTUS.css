@@ -137,7 +137,8 @@ padding-top: 100px;
 .carousel .list .item .des {
   color: #fff;
   font-weight: bolder;
-    background-color: rgba(0, 0, 0, 0.1);
+    
+    font-size: 20px;
 }
 /* thumbail */
 .thumbnail{
@@ -900,7 +901,7 @@ padding-top: 120px;
   color: #fff;
   font-weight: bolder;
     background-color: rgba(0, 0, 0, 0.1);
-    font-size: 25px;
+    font-size: 20px;
 }
 /* about our company slide */
 
@@ -1114,14 +1115,14 @@ align-items: center;
 }
 
 .video-text h3{
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bolder;
     font-family: "Nunito",arial,sans-serif;
     line-height: 40px;
 
 }
 .video-text p{
-    font-size: 17px;
+    font-size: 20px;
     font-family: "Nunito",arial,sans-serif;
     
 
@@ -1130,7 +1131,7 @@ align-items: center;
 
 .video-content .video-img img{
  height: 35vh;
-   width: 90%; 
+   width: 100%; 
    padding-right: 0rem; 
 
    
