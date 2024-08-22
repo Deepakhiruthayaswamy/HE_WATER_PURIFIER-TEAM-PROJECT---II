@@ -5,49 +5,57 @@ body {
     background-color: #f9f9f9;
 }
 /* Hero Section */
-.hero {
-    background-color: #e9f6ff; /* Light blue background */
-    padding: 80px 20px;
+.back {
+    background-color: #eef9ff;
+    height: 40vh;
+ 
+  }
+  .overlay {
     text-align: center;
+    text-transform: uppercase;
+    padding-top: 100px;
+  }
+  
+  .overlay h3 {
+    margin: 0 0 0.5em 0;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    font-family: "Dosis", arial, sans-serif;
+    color: #081f46;
     position: relative;
-}
-
-.hero::after {
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    left: 0;
-    right: 0;
-    height: 50px;
-    background: url('path/to/wave.png') no-repeat center bottom;
-    background-size: cover;
-}
-
-.hero h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #333;
-    margin: 0;
-}
-
-.breadcrumb {
-    margin-top: 15px;
-    font-size: 1rem;
-    color: #555;
-}
-
-.breadcrumb a {
+  }
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: "Nunito", arial, sans-serif;
+  }
+  
+  .text .btn {
     text-decoration: none;
-    color: white;
-    background-color: #007bff;
-    font-weight: 500;
-    padding: 5px 10px;
-    border-radius: 15px;
-}
-
-.breadcrumb span {
-    color: #777;
-}
+    background-color: #37a2ff;
+    padding: 5px 25px;
+    border-radius: 20px;
+    color: #ffffff;
+    white-space: nowrap;
+    margin-right: 0.4rem;
+  }
+  
+  .text h5 {
+    text-align: center;
+    color: #081f46;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  } 
+  #header-wave {
+    background-color: #eef9ff;
+  } /* banner end */
+  
 
 .testimonials {
     display: grid;

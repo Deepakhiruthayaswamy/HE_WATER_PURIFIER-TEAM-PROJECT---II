@@ -30,7 +30,8 @@ a {
 }
 .navbar-nav .nav-link {
   color: black !important;
-  font-size: 17px;
+  font-size: 16px;
+  font-family: Nunito, arial, sans-serif !important;
 }
 .navbar-nav .nav-link:hover {
   color: #379eff !important;

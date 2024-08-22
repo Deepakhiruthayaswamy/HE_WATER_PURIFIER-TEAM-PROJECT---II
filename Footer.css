@@ -16,6 +16,14 @@ h6 {
   font-family: NunitoFonts;
 }
 
+.icon-clr {
+  background-color: #0d6efd;
+  width: 42px;
+  height: 42px;
+  font-size: 17px;
+  padding: 7px;
+  border: none;
+}
 /*** Footer Start ***/
 .text-white {
   font-family: Dosis;
@@ -59,7 +67,7 @@ h6 {
 
 .footer .footer-item a:hover {
   letter-spacing: 1px;
-  color: #0d6efd;
+  color: #379eff;
 }
 
 .footer .footer-item .footer-btn a,

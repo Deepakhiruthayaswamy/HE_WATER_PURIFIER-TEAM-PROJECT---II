@@ -79,17 +79,17 @@ padding-top: 100px;
 
 /* gallery */
 .containers{
-    width:50%;
+  
     display: flex;
     flex-wrap: wrap;   
     justify-content:center;
     align-items: center;
-    transform: translate(50%);
+   
     
 }
 .img-c{
    
-    width: 46%;
+    width: 400px;
     border: none;
     padding: 3% !important;
     box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .11), 0 12px 90px 0 rgba(103, 151, 255, .11);
@@ -111,6 +111,17 @@ padding-top: 100px;
 }
 
 /* media query */
+
+@media screen and (max-width:1281px) {
+    
+    .img-c{
+   
+        width: 300px;
+       
+    } 
+    
+}
+
 
 @media screen and (max-width:769px){    
     /* background view [page] start */
