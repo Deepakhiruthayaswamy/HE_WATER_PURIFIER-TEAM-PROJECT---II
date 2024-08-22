@@ -1,6 +1,6 @@
 // Floating effect for the heading section
 document.addEventListener('DOMContentLoaded', function() {
-    const img = document.querySelector('.img-fluid');
+    const img = document.querySelector('.img-fluid1');
     let position = 0;
     let direction = 1;
     const speed = 0.5;  // Adjust the speed of the floating effect
