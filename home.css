@@ -361,8 +361,8 @@ h2 {
     border-radius: 25px;
     width: 175px;
 }
-.btrn3:hover{
-    transform: ;
+.btn3:hover{
+    transform: scale(1.1);
 }
 
 
@@ -388,15 +388,14 @@ h2 {
 }
 
 
-#our-story p {
-    font-size: 15px;
+.nunito .core {
+    font-size: 20px;
     text-align: center;
-    justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 80px;
+    margin-top: -1%;
 }
 
 .story-icons {
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     border-radius: 100% 100% 100% 100%;
@@ -593,134 +592,197 @@ h2 {
 .blog-cards .card3 button:hover {
     background-color: #0056b3;
 }
-/* Default styles for large screens (desktops) */
 
-/* Mobile Devices (Portrait and Landscape) */
-@media (max-width: 767px) {
+/* Media Queries for Responsive Design */
+
+/* For devices with a max width of 1200px */
+@media (max-width: 1200px) {
+    .header-title1, .header-title {
+        font-size: 3rem;
+    }
+
     .header-section {
-        text-align: center;
+        height: auto;
         padding: 20px;
     }
-    .header-section .header-title1, .header-section .header-title {
+
+    .text-up {
+        margin-top: 5%;
+    }
+
+    .img-fluid1 {
+        max-width: 70%;
+        height: auto;
+        margin-left: 15%;
+    }
+
+    .composition {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left, .right, .center {
+        width: 100%;
+    }
+
+    .water-title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .water-options {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .delivery-service {
+        flex-direction: column;
+    }
+
+    .delivery-service img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .delivery-service-content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .story-icons {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+/* For devices with a max width of 768px */
+@media (max-width: 768px) {
+    .header-title1, .header-title {
+        font-size: 2.5rem;
+    }
+
+    .btn2, .btn1, .btn3 {
+        font-size: 1.1rem;
+        width: 150px;
+    }
+
+    .img-fluid1 {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+
+    .composition {
+        gap: 20px;
+    }
+
+    .water-options {
+        gap: 20px;
+    }
+
+    .water-options .card img {
+        max-height: 200px;
+    }
+
+    .delivery-service-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .story-icons {
+        gap: 20px;
+    }
+
+    .storyy1, .storyy2, .storyy3, .storyy4 {
+        margin: 0 auto;
+    }
+}
+
+/* For devices with a max width of 576px */
+@media (max-width: 576px) {
+    .header-title1, .header-title {
         font-size: 2rem;
     }
-    .header-section .header-subtitle {
+
+    .btn2, .btn1, .btn3 {
         font-size: 1rem;
-        margin: 10px 0;
+        width: 130px;
     }
-    .header-section .btn1, .header-section .btn2 {
-        width: 100%;
-        margin: 10px 0;
-    }
+
     .img-fluid1 {
-        width: 80%;
-        margin-top: 20px;
+        max-width: 90%;
+        margin-left: 5%;
     }
-    .water-title h2 {
+
+    .water-options {
+        gap: 10px;
+    }
+
+    .water-options .card h3 {
+        font-size: 18px;
+    }
+
+    .water-options .card p {
+        font-size: 16px;
+    }
+
+    .water-options .card button {
+        font-size: 16px;
+    }
+
+    .delivery-service-content h2 {
+        font-size: 2rem;
+    }
+
+    .story-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .story-icons {
+        gap: 10px;
+    }
+}
+
+/* For devices with a max width of 375px */
+@media (max-width: 375px) {
+    .header-title1, .header-title {
         font-size: 1.5rem;
     }
-    .card {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .story-title h2 {
-        font-size: 2rem;
-    }
-    .story-content img {
-        width: 100%;
-    }
-    .delivery-title h2 {
-        font-size: 2rem;
-    }
-}
 
-/* Tablets (Portrait and Landscape) */
-@media (min-width: 768px) and (max-width: 991px) {
-    .header-section {
-        padding: 40px;
+    .btn2, .btn1, .btn3 {
+        font-size: 0.9rem;
+        width: 110px;
     }
-    .header-section .header-title1, .header-section .header-title {
-        font-size: 2.5rem;
-    }
-    .header-section .header-subtitle {
-        font-size: 1.2rem;
-        margin: 15px 0;
-    }
+
     .img-fluid1 {
-        width: 70%;
+        max-width: 100%;
+        margin-left: 0;
     }
-    .water-title h2 {
-        font-size: 2rem;
-    }
-    .card {
-        width: 48%;
-        margin-bottom: 20px;
-    }
-    .story-title h2 {
-        font-size: 2.5rem;
-    }
-    .story-content img {
-        width: 90%;
-    }
-    .delivery-title h2 {
-        font-size: 2.5rem;
-    }
-}
 
-/* Small Desktops / Laptops */
-@media (min-width: 992px) and (max-width: 1199px) {
-    .header-section .header-title1, .header-section .header-title {
-        font-size: 3rem;
+    .water-title h2 {
+        font-size: 2.5rem;
     }
-    .header-section .header-subtitle {
+
+    .water-options .card h3 {
+        font-size: 16px;
+    }
+
+    .water-options .card p {
+        font-size: 14px;
+    }
+
+    .water-options .card button {
+        font-size: 14px;
+    }
+
+    .delivery-service-content h2 {
         font-size: 1.5rem;
     }
-    .img-fluid1 {
-        width: 60%;
-    }
-    .water-title h2 {
-        font-size: 2.5rem;
-    }
-    .card {
-        width: 30%;
-        margin-bottom: 20px;
-    }
-    .story-title h2 {
-        font-size: 3rem;
-    }
-    .story-content img {
-        width: 80%;
-    }
-    .delivery-title h2 {
-        font-size: 3rem;
-    }
-}
 
-/* Large Desktops */
-@media (min-width: 1200px) {
-    .header-section .header-title1, .header-section .header-title {
-        font-size: 4rem;
-    }
-    .header-section .header-subtitle {
-        font-size: 1.8rem;
-    }
-    .img-fluid1 {
-        width: 50%;
-    }
-    .water-title h2 {
-        font-size: 3rem;
-    }
-    .card {
-        width: 28%;
-        margin-bottom: 20px;
-    }
     .story-title h2 {
-        font-size: 3.5rem;
+        font-size: 2rem;
     }
-    .story-content img {
-        width: 70%;
-    }
-    .delivery-title h2 {
-        font-size: 3.5rem;
+
+    .story-icons {
+        gap: 5px;
     }
 }
