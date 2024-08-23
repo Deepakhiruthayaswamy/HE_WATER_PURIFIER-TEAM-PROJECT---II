@@ -8,6 +8,61 @@ span {
   color: #0381fe;
   font-weight: bold;
 }
+
+/* banner */
+.back {
+  background-color: #eef9ff;
+  height: 40vh;
+}
+.overlay {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.overlay h3 {
+  margin: 0 0 0.5em 0;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  font-family: "Dosis", arial, sans-serif;
+  color: #081f46;
+  position: relative;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-family: "Nunito", arial, sans-serif;
+}
+
+.text .btn {
+  text-decoration: none;
+  background-color: #37a2ff;
+  padding: 5px 25px;
+  border-radius: 20px;
+  color: #ffffff;
+  white-space: nowrap;
+  margin-right: 0.4rem;
+}
+
+.text h5 {
+  text-align: center;
+  color: #081f46;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1em;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+#header-wave {
+  background-color: #eef9ff;
+}
+
+/* banner end */
+
 .container1 {
   display: flex;
   flex-direction: column;
@@ -296,58 +351,6 @@ span {
   color: #dadada;
 }
 
-/* banner */
-.back {
-  background-color: #eef9ff;
-  height: 40vh;
-}
-.overlay {
-  text-align: center;
-  text-transform: uppercase;
-  padding-top: 100px;
-}
-
-.overlay h3 {
-  margin: 0 0 0.5em 0;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 60px;
-  font-family: "Dosis", arial, sans-serif;
-  color: #081f46;
-  position: relative;
-}
-.text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-  font-family: "Nunito", arial, sans-serif;
-}
-
-.text .btn {
-  text-decoration: none;
-  background-color: #37a2ff;
-  padding: 5px 25px;
-  border-radius: 20px;
-  color: #ffffff;
-  white-space: nowrap;
-  margin-right: 0.4rem;
-}
-
-.text h5 {
-  text-align: center;
-  color: #081f46;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 1em;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-#header-wave {
-  background-color: #eef9ff;
-}
-
 /* Media Queries */
 /* For Tablet */
 
@@ -580,7 +583,7 @@ span {
 /* Media Queries */
 /* For Bigger Mobile */
 
-@media screen and (min-width: 321px) and (max-width: 420px) {
+@media screen and (min-width: 321px) and (max-width: 425px) {
   .back {
     background-color: #eef9ff;
     height: 65vh;
@@ -642,4 +645,3 @@ span {
     height: 50vh;
   }
 }
-
