@@ -18,7 +18,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h2 {
-    text-align: center;
     margin-top: 50px;
     color: #007bff;
 }
@@ -220,18 +219,18 @@ h2 {
     padding: 50px 0;
 }
 
-.choose-title  {
+.choose-auro  {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-bottom: 5%;
     color: #333;
 }
-.choose-title h2:first-child{
+.choose-auro h2:first-child{
     color: black;
     font-size: 3.5rem;
 }
-.choose-title h2:last-child{
+.choose-auro h2:last-child{
     color: #007BFF;
     font-size: 3.5rem;
 }
@@ -316,11 +315,11 @@ h2 {
     flex: 1; /* Ensures the content takes up the remaining right side */
     padding-left: 800px; /* Adds space between the image and content */
 }
-.six{
+.delivery-title{
     display: flex;
     color: #333;
 }
-.six h2{
+.delivery-title h2{
     font-size: 3.5rem;
     margin-top: -3%;
     margin-bottom: 8%;
@@ -329,6 +328,14 @@ h2 {
 }
 .service{
     color: #007BFF;
+    font-size: 3.5rem;
+    margin-top: -3%;
+    margin-bottom: 8%;
+}
+.blk{
+    font-size: 3.5rem;
+    margin-top: -3%;
+    margin-bottom: 8%;
 }
 
 
@@ -408,6 +415,7 @@ h2 {
     margin: 0 10px;
     padding: 10px;
     background-color: rgb(204, 233, 243);
+    margin-bottom: 15%;
 }
 .storyy2{
     border-radius: 10%;
@@ -415,6 +423,7 @@ h2 {
     margin: 0 10px;
     padding: 10px;
     background-color: rgb(204, 233, 243);
+    margin-bottom: 15%;
 }
 .storyy3{
     border-radius: 10%;
@@ -422,6 +431,7 @@ h2 {
     margin: 0 10px;
     padding: 10px;
     background-color: rgb(204, 233, 243);
+    margin-bottom: 15%;
 }
 .storyy4{
     border-radius: 10%;
@@ -429,6 +439,7 @@ h2 {
     margin: 0 10px;
     padding: 10px;
     background-color: rgb(204, 233, 243);
+    margin-bottom: 15%;
 }
 
 .icon1 img {
