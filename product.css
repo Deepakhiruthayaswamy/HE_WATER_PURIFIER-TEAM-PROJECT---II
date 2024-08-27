@@ -6,12 +6,7 @@ body {
 
 }
 
-/* header section  */
-/* .Customheader{
-  padding: 5rem 0rem;
-  height: 40vh;
 
-} */
 #header-wave {
   background-color: #eef9ff;
 }
@@ -49,7 +44,9 @@ body {
   flex-direction: row;
   gap: 1.8rem;
   margin-bottom: 5rem;
+  
 }
+
 
 .Customproduct {
   display: flex;
@@ -94,8 +91,8 @@ body {
 /* customsidebar  */
 
 .Customsidebar {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   width: 100%;
 }
 
@@ -111,17 +108,19 @@ body {
   display: flex;
   background-color: #eef9ff;
   padding-left: 1rem;
+ 
   margin-bottom: 1rem;
   border-radius: 0.9rem;
 }
 
 .Customsidebarimg img {
   border-radius: 100%;
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
   margin-right: 1rem;
   background-color: #dfdfdf;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .Customsidebardetails {
