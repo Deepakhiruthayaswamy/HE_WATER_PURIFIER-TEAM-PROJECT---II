@@ -5734,7 +5734,7 @@ padding-top: 70px;
   color: #fff;
   font-weight: bolder;
     background-color: rgba(0, 0, 0, 0.1);
-    font-size: 10px;
+    font-size: 8px;
 }
 
 
@@ -5751,7 +5751,7 @@ padding-top: 70px;
 }
 .thumbnail .item{
     width: 150px;
-    height: 130px;
+    height: 120px;
     flex-shrink: 0;
     position: relative;
 }
@@ -6022,9 +6022,9 @@ width: 100%;
 
 .video-content .video-img img{
  height: 30vh; 
-   width: 130%; 
-   padding-right: 6rem; 
-   transform: translate(-1%);
+   width: 140%; 
+   padding-right:10rem; 
+   transform: translate(-5%);
 
    
 }
